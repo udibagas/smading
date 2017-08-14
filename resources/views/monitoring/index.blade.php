@@ -39,7 +39,7 @@
     var btn = '<a href="/monitoring/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '/monitoring',
+        ajax: true, url: '{{url('monitoring')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         templates: {

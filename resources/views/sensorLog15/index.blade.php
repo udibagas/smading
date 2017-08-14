@@ -30,7 +30,7 @@
 
 <script type="text/javascript">
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '/sensorLog15',
+        ajax: true, url: '{{url('sensorLog15')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         formatters: {

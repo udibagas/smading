@@ -17,7 +17,7 @@ class RuangController extends Controller
     {
         $pageSize = $request->rowCount > 0 ? $request->rowCount : 1000000;
         $request['page'] = $request->current;
-        $sort = $request->sort ? key($request->sort) : 'name';
+        $sort = $request->sort ? key($request->sort) : 'ruangs.name';
         $dir = $request->sort ? $request->sort[$sort] : 'asc';
 
         $ruangs = Ruang::selectRaw('ruangs.*, gedungs.name AS gedung')

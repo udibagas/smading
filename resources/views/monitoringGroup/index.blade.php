@@ -32,7 +32,7 @@
     var btn = '<a href="/monitoringGroup/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '/monitoringGroup',
+        ajax: true, url: '{{url('monitoringGroup')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         templates: {

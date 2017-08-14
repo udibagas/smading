@@ -37,7 +37,7 @@
     var btn = '<a href="/rak/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '/rak',
+        ajax: true, url: '{{url('rak')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         // selection: true,

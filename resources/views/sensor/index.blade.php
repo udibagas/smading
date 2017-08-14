@@ -44,7 +44,7 @@
     var btn = '<a href="/sensor/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '/sensor',
+        ajax: true, url: '{{url('sensor')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         templates: {
