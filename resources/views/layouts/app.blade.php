@@ -78,7 +78,7 @@
                 <div class="col-md-1"> </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/" class="main-menu-btn @if (url()->current() == url('/')) active @endif">
+                        <a href="{{url('home')}}" class="main-menu-btn @if (url()->current() == url('/')) active @endif">
                             <i class="fa fa-dashboard fa-5x"></i><br>
                             DASHBOARD
                         </a>
@@ -94,7 +94,7 @@
                 </div> -->
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/tren" class="main-menu-btn @if (url()->current() == url('/tren')) active @endif">
+                        <a href="{{url('tren')}}" class="main-menu-btn @if (url()->current() == url('/tren')) active @endif">
                             <i class="fa fa-area-chart fa-5x"></i><br>
                             TREN
                         </a>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/pemantauan" class="main-menu-btn @if (url()->current() == url('/pemantauan')) active @endif">
+                        <a href="{{asset('pemantauan')}}" class="main-menu-btn @if (url()->current() == url('/pemantauan')) active @endif">
                             <i class="fa fa-binoculars fa-5x"></i><br>
                             PEMANTAUAN
                         </a>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/asset" class="main-menu-btn @if (url()->current() == url('/asset')) active @endif">
+                        <a href="{{asset('asset')}}" class="main-menu-btn @if (url()->current() == url('/asset')) active @endif">
                             <i class="fa fa-barcode fa-5x"></i><br>
                             ASSET
                         </a>
@@ -118,7 +118,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/tata-kelola" class="main-menu-btn @if (url()->current() == url('/tata-kelola')) active @endif">
+                        <a href="{{url('tata-kelola')}}" class="main-menu-btn @if (url()->current() == url('/tata-kelola')) active @endif">
                             <i class="fa fa-sitemap fa-5x"></i><br>
                             TATA KELOLA
                         </a>
@@ -126,7 +126,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/it-peripheral" class="main-menu-btn @if (url()->current() == url('/it-peripheral')) active @endif">
+                        <a href="{{url('it-peripheral')}}" class="main-menu-btn @if (url()->current() == url('/it-peripheral')) active @endif">
                             <i class="fa fa-laptop fa-5x"></i><br>
                             IT PERIPHERAL
                         </a>
@@ -134,7 +134,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/master-data" class="main-menu-btn @if (url()->current() == url('/master-data')) active @endif">
+                        <a href="{{url('master-data')}}" class="main-menu-btn @if (url()->current() == url('/master-data')) active @endif">
                             <i class="fa fa-database fa-5x"></i><br>
                             MASTER DATA
                         </a>
@@ -142,7 +142,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/setting" class="main-menu-btn @if (url()->current() == url('/setting')) active @endif">
+                        <a href="{{url('setting')}}" class="main-menu-btn @if (url()->current() == url('/setting')) active @endif">
                             <i class="fa fa-cogs fa-5x"></i><br>
                             SETTING
                         </a>
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/profile" class="main-menu-btn @if (url()->current() == url('/profile')) active @endif">
+                        <a href="{{url('profile')}}" class="main-menu-btn @if (url()->current() == url('/profile')) active @endif">
                             <i class="fa fa-user fa-5x"></i><br>
                             PROFIL
                         </a>
