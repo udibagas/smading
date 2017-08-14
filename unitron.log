@@ -1,0 +1,3476 @@
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:28] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:31] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:34] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:35] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:38] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:41] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:44] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:47] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:50] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:51] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:54] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:07:57] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:00] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:03] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:06] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:09] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:10] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:13] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:16] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:19] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:22] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:25] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:26] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:29] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:32] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:35] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:38] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:41] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:42] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:45] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:48] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:51] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:54] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:57] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:08:58] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:01] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:04] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:07] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:10] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:13] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:14] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:17] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:20] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:23] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:26] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:29] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:32] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:35] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:38] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:38] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:38] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:38] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:38] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:38] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:39] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:42] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
+192.168.99.206 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.205 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.201 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.202 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.203 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.204 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+192.168.99.207 (SOCOMEC DIRIS A40-A41) Pake MODBUSTCP
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.45 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.45 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.45 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.45 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.42 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.42 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.42 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.42 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.41 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.41 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.41 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.41 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.50 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.50 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.50 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.50 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.44 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.44 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.44 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.44 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.53 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.53 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.53 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.53 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.51 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.51 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.51 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.51 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.49 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.49 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.49 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.49 bacaArus
+: Invalid object identifier: bacaArus
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.46 bacaLembab
+: Invalid object identifier: bacaLembab
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.46 bacaGas
+: Invalid object identifier: bacaGas
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.46 bacaSuhu
+: Invalid object identifier: bacaSuhu
+[2017-08-12 03:09:45] snmpget -v 1 -c public 192.168.1.46 bacaArus
+: Invalid object identifier: bacaArus
