@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\User;
+use GuzzleHttp\Exception\GuzzleException;
+use GuzzleHttp\Client;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +18,17 @@ use Illuminate\Http\Request;
 
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
+});
+
+Route::get('aaa', function() {
+    $client = new Client(); //GuzzleHttp\Client
+    $result = $client->get('http://192.168.1.177:8704');
+
+    if ($result->getStatusCode() == 200) {
+        return json_decode($result->getBody());
+        // return response($result->getBody())
+        //         ->header('Content-Type', 'application/json');
+    } else {
+        return ['status' => false];
+    }
 });
