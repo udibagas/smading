@@ -47,7 +47,7 @@
         </label>
         <div class="col-md-6 col-sm-6 col-xs-12">
             {{ Form::select('protocol',
-                ['modbustcp' => 'modbustcp', 'snmp' => 'snmp'],
+                ['modbustcp' => 'modbustcp', 'snmp' => 'snmp', 'http' => 'http'],
                 $appliance->protocol, [
                     'class' => 'form-control',
                     'placeholder' => '-- Pilih Protocol --'
