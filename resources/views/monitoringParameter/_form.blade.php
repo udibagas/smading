@@ -95,7 +95,11 @@
     <div class="form-group">
         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
             <button type="submit" class="btn btn-primary">SIMPAN</button>
+<<<<<<< HEAD
             <a href="{{url('monitoringParameter')}}" class="btn btn-default">BATAL</a>
+=======
+            <a href="{{('monitoringParameter')}}" class="btn btn-default">BATAL</a>
+>>>>>>> e45b8fe9e055fbe0feec610c0feead5b0a696276
         </div>
     </div>
 
