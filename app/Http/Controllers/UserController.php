@@ -34,6 +34,7 @@ class UserController extends Controller
                 'rows' => $users->items(),
             ];
         }
+        
         return view('user.index', ['users' => $users]);
     }
 

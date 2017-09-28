@@ -96,9 +96,14 @@ class Unitron extends Command
             //     continue;
             // }
 
+            // pake ini
             // list($substrStart, $substrEnd) = explode(',', $snmpOid->substr_output);
             // $valueRaw   = substr($snmpOutput, $substrStart, $substrEnd);
             // $value      = $this->convertValue($valueRaw, $snmpOid->conversion);
+
+            // atau ini
+            preg_match_all('!\d+!', $snmpOutput, $matches);
+            $value = $matches[0];
 
             // for test only
             $value = mt_rand(1,99);
