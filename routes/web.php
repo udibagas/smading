@@ -33,6 +33,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::resource('/sop', 'SopController');
     Route::resource('/user', 'UserController');
     Route::resource('/appliance', 'ApplianceController');
+    Route::resource('/applianceHttpApi', 'ApplianceHttpApiController');
     Route::resource('/modbusRegister', 'ModbusRegisterController');
     Route::resource('/monitoringParameter', 'MonitoringParameterController');
     Route::resource('/monitoringGroup', 'MonitoringGroupController');

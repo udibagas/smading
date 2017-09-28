@@ -4,16 +4,15 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h2>MODBUS REGISTER <small>Manage</small></h2><hr>
+        <h2>APPLIANCE HTTP API <small>Manage</small></h2><hr>
         <table class="table table-striped table-hover" id="bootgrid">
             <thead>
                 <tr>
                     <th data-column-id="id">ID</th>
                     <th data-column-id="appliance">Appliance</th>
-                    <th data-column-id="offset">Offset</th>
+                    <th data-column-id="url">URL</th>
                     <th data-column-id="description">Description</th>
                     <th data-column-id="parameter">Parameter</th>
-                    <th data-column-id="conversion">Conversion</th>
                     <th data-column-id="unit">Unit</th>
                     <th data-column-id="data_type">Data Type</th>
                     <th data-column-id="monitor" data-formatter="monitor">Monitor</th>
@@ -34,10 +33,10 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="{{url('modbusRegister/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
+    var btn = '<a href="{{url('applianceHttpApi/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '{{url('modbusRegister')}}',
+        ajax: true, url: '{{url('applianceHttpApi')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         templates: {
@@ -45,7 +44,7 @@
         },
         formatters: {
             "commands": function(column, row) {
-                return "<a class=\"btn btn-xs btn-default\" href=\"{{url('modbusRegister')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
+                return "<a class=\"btn btn-xs btn-default\" href=\"{{url('applianceHttpApi')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
                     "<button class=\"btn btn-xs btn-default c-delete\" data-id=\"" + row.id + "\"><i class=\"fa fa-trash\"></i></button>";
             },
             "monitor": function(column, row) {
@@ -63,7 +62,7 @@
             $.ajax({
                 type: 'POST',
                 data: {'_method' : 'DELETE'},
-                url: '{{url("modbusRegister")}}/' + id,
+                url: '{{url("applianceHttpApi")}}/' + id,
                 success: function(r) {
                     console.log(r);
                     $('#bootgrid').bootgrid('reload');

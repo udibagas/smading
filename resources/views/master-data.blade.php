@@ -89,6 +89,11 @@
     </div>
     <div class="col-md-2">
         <div class="menu-holder" style="margin-bottom:40px;">
+            <a href="{{url('applianceHttpApi')}}"><i class="fa fa-list fa-5x"></i><br> APPLIANCE HTTP API</a>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="menu-holder" style="margin-bottom:40px;">
             <a href="{{url('monitoring')}}"><i class="fa fa-binoculars fa-5x"></i><br> MONITORING</a>
         </div>
     </div>
