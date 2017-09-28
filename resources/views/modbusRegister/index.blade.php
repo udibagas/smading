@@ -34,7 +34,7 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="/modbusRegister/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
+    var btn = '<a href="{{url('modbusRegister/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
         ajax: true, url: '{{url('modbusRegister')}}',

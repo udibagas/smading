@@ -29,7 +29,7 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="/user/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
+    var btn = '<a href="{{url('user/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
         ajax: true, url: '{{url('user')}}',
@@ -40,7 +40,7 @@
         },
         formatters: {
             "commands": function(column, row) {
-                return "<a class=\"btn btn-xs btn-default\" href=\"/user/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
+                return "<a class=\"btn btn-xs btn-default\" href=\"{{url('user')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
                     "<button class=\"btn btn-xs btn-default c-delete\" data-id=\"" + row.id + "\"><i class=\"fa fa-trash\"></i></button>";
             },
             "role": function(column, row) {
@@ -59,7 +59,7 @@
             $.ajax({
                 type: 'POST',
                 data: {'_method' : 'DELETE'},
-                url: '/user/' + id,
+                url: '{{url("user")}}/' + id,
                 success: function(r) {
                     console.log(r);
                     $('#bootgrid').bootgrid('reload');

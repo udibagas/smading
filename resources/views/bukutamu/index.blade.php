@@ -32,7 +32,7 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="/bukutamu/create" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
+    var btn = '<a href="{{url('bukutamu/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
         ajax: true, url: '/bukutamu',
@@ -58,7 +58,7 @@
             $.ajax({
                 type: 'POST',
                 data: {'_method' : 'DELETE'},
-                url: '/bukutamu/' + id,
+                url: '{{url("bukutamu")}}/' + id,
                 success: function(r) {
                     console.log(r);
                     $('#bootgrid').bootgrid('reload');
