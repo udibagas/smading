@@ -15,6 +15,8 @@
                     <th data-column-id="rak">Rak</th>
                     <th data-column-id="parameter">Parameter</th>
                     <th data-column-id="min_value">Min Value</th>
+                    <th data-column-id="lo_value">Low Value</th>
+                    <th data-column-id="hi_value">High Value</th>
                     <th data-column-id="max_value">Max Value</th>
                     <th data-column-id="unit">Unit</th>
                     <th data-column-id="commands"
@@ -26,7 +28,8 @@
             </thead>
         </table>
 
-        * Min & Max Value sebagai acuan batas aman
+        * Min & Max Value sebagai acuan batas aman <br>
+        * Low & High Value sebagai acuan batas peringatan
     </div>
 </div>
 

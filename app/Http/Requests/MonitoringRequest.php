@@ -29,6 +29,8 @@ class MonitoringRequest extends FormRequest
             'monitoring_parameter_id' => 'required',
             'min_value' => 'required',
             'max_value' => 'required',
+            'hi_value' => 'required',
+            'lo_value' => 'required',
         ];
     }
 }

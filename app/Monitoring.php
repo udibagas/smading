@@ -8,7 +8,8 @@ class Monitoring extends Model
 {
     protected $fillable = [
         'gedung_id', 'ruang_id', 'rak_id',
-        'monitoring_parameter_id', 'min_value', 'max_value'
+        'monitoring_parameter_id', 'min_value', 'max_value',
+        'hi_value', 'lo_value'
     ];
 
     public function gedung() {

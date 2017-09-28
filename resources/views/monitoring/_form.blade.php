@@ -93,6 +93,34 @@
         </div>
     </div>
 
+    <div class="form-group{{ $errors->has('lo_value') ? ' has-error' : '' }}">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Low Value <span class="required">*</span>
+        </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            {{ Form::text('lo_value', $monitoring->lo_value, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'Low Value']) }}
+
+            @if ($errors->has('lo_value'))
+                <span class="help-block">
+                    <strong>{{ $errors->first('lo_value') }}</strong>
+                </span>
+            @endif
+        </div>
+    </div>
+
+    <div class="form-group{{ $errors->has('hi_value') ? ' has-error' : '' }}">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">High Value <span class="required">*</span>
+        </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            {{ Form::text('hi_value', $monitoring->hi_value, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'High Value']) }}
+
+            @if ($errors->has('hi_value'))
+                <span class="help-block">
+                    <strong>{{ $errors->first('hi_value') }}</strong>
+                </span>
+            @endif
+        </div>
+    </div>
+
     <div class="form-group{{ $errors->has('max_value') ? ' has-error' : '' }}">
         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-name">Max Value <span class="required">*</span>
         </label>
