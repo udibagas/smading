@@ -7,20 +7,19 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>SMADING - SMART BUILDING MONITORING SYSTEM</title>
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="{{ asset('gentelella/vendors/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('jquery.bootgrid/jquery.bootgrid.min.css') }}" rel="stylesheet"/>
     <!-- iCheck -->
     <link href="{{ asset('gentelella/vendors/iCheck/skins/flat/green.css') }}" rel="stylesheet">
     <!-- bootstrap-progressbar -->
     <link href="{{ asset('gentelella/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <!-- <link href="{{ asset('highcharts/code/css/highcharts.css') }}" rel="stylesheet"> -->
-    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
     <script src="{{ asset('gentelella/vendors/echarts/dist/echarts.min.js') }}"></script>
     <script src="{{ asset('js/angular.min.js') }}"></script>
 
 </head>
-<body>
+<body style="background: url('../images/dc.png');background-size: cover;background-repeat: no-repeat;">
     <div id="app">
         <!-- <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
