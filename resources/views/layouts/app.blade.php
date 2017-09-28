@@ -19,7 +19,7 @@
     <script src="{{ asset('js/angular.min.js') }}"></script>
 
 </head>
-<body style="background: url('../images/dc.png');background-size: cover;background-repeat: no-repeat;">
+<body style="background: url('images/dc.png');background-size: cover;background-repeat: no-repeat;">
     <div id="app">
         <!-- <nav class="navbar navbar-default navbar-static-top">
             <div class="container">
