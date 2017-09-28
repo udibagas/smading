@@ -95,7 +95,7 @@
     <div class="form-group">
         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
             <button type="submit" class="btn btn-primary">SIMPAN</button>
-            <a href="/modbusRegister" class="btn btn-default">BATAL</a>
+            <a href="{{url('monitoringParameter')}}" class="btn btn-default">BATAL</a>
         </div>
     </div>
 
