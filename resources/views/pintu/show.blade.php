@@ -44,7 +44,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Akses Terakhir</td><td>{{ $pintu->last_access_time->diffForHumans() }}</td>
+                            <td>Akses Terakhir</td><td>{{ $pintu->last_access_time ? $pintu->last_access_time->diffForHumans() : '' }}</td>
                         </tr>
                         <tr>
                             <td>Akses Oleh</td><td>{{ $pintu->last_access_by }}</td>
@@ -74,7 +74,7 @@
 
 <script type="text/javascript">
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '{{url('logPintu')}}',
+        ajax: true, url: '{{url('logPintu?pintu_id='.$pintu->id)}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         formatters: {
@@ -85,6 +85,11 @@
             }
         }
     });
+
+    setInterval(function() {
+        $('#bootgrid').bootgrid('reload');
+    }, 3000);
+
 </script>
 
 @endpush

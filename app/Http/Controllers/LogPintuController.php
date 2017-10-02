@@ -24,6 +24,9 @@ class LogPintuController extends Controller
             ->join('pintus', 'pintus.id', '=', 'log_pintus.pintu_id')
             ->join('gedungs', 'gedungs.id', '=', 'pintus.gedung_id')
             ->join('ruangs', 'ruangs.id', '=', 'pintus.ruang_id')
+            ->when($request->pintu_id, function($query) use ($request) {
+                return $query->where('log_pintus.pintu_id', $request->pintu_id);
+            })
             ->when($request->searchPhrase, function($query) use ($request) {
                 return $query
                     ->where('pintus.name', 'LIKE', '%'.$request->searchPhrase.'%')
@@ -31,8 +34,8 @@ class LogPintuController extends Controller
                     ->orWhere('pintus.description', 'LIKE', '%'.$request->searchPhrase.'%')
                     ->orWhere('pintus.ip_address', 'LIKE', '%'.$request->searchPhrase.'%')
                     ->orWhere('log_pintus.access_by', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('ruang.name', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('gedung.name', 'LIKE', '%'.$request->searchPhrase.'%');
+                    ->orWhere('ruangs.name', 'LIKE', '%'.$request->searchPhrase.'%')
+                    ->orWhere('gedungs.name', 'LIKE', '%'.$request->searchPhrase.'%');
             })->orderBy($sort, $dir)->paginate($pageSize);
 
         if ($request->ajax()) {
