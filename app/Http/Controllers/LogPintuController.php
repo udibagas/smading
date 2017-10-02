@@ -20,7 +20,7 @@ class LogPintuController extends Controller
         $sort = $request->sort ? key($request->sort) : 'log_pintus.created_at';
         $dir = $request->sort ? $request->sort[$sort] : 'DESC';
 
-        $logPintus = LogPintu::selectRaw('log_pintus.*, pintus.name AS pintu, gedungs.name AS gedung, ruangs.name AS ruang, ruangs.lantai AS lantai')
+        $logPintus = LogPintu::selectRaw('log_pintus.created_at, log_pintus.access_by, log_pintus.status AS stts, pintus.name AS pintu, gedungs.name AS gedung, ruangs.name AS ruang, ruangs.lantai AS lantai')
             ->join('pintus', 'pintus.id', '=', 'log_pintus.pintu_id')
             ->join('gedungs', 'gedungs.id', '=', 'pintus.gedung_id')
             ->join('ruangs', 'ruangs.id', '=', 'pintus.ruang_id')

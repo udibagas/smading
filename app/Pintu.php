@@ -12,6 +12,8 @@ class Pintu extends Model
         'ip_address', 'username', 'password',
     ];
 
+    protected $dates = ['last_access_time'];
+
     public function gedung() {
         return $this->belongsTo(Gedung::class);
     }

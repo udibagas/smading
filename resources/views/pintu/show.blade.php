@@ -44,7 +44,7 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Akses Terakhir</td><td>{{ $pintu->last_access_time }}</td>
+                            <td>Akses Terakhir</td><td>{{ $pintu->last_access_time->diffForHumans() }}</td>
                         </tr>
                         <tr>
                             <td>Akses Oleh</td><td>{{ $pintu->last_access_by }}</td>
@@ -58,7 +58,7 @@
                         <tr>
                             <th data-column-id="created_at">Waktu Akses</th>
                             <th data-column-id="access_by">Diakses Oleh</th>
-                            <th data-formatter="status">Status</th>
+                            <th data-formatter="stts">Status</th>
                         </tr>
                     </thead>
                 </table>
@@ -78,8 +78,8 @@
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         formatters: {
-            "status": function(column, row) {
-                return row.status == 1 ? "Tutup" : "Buka";
+            "stts": function(column, row) {
+                return row.stts == 1 ? "Tutup" : "Buka";
             }
         }
     });
