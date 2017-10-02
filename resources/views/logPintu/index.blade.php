@@ -43,10 +43,6 @@
         }
     });
 
-    setInterval(function() {
-        $('#bootgrid').bootgrid('reload');
-    }, 3000);
-
 </script>
 
 @endpush
