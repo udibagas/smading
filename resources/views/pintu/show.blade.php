@@ -95,7 +95,7 @@
     setInterval(function() {
         $('#bootgrid').bootgrid('reload');
         $.get('{{url("pintu/".$pintu->id)}}', function(j) {
-            status = j.stts
+            status = j.status
                 ? '<span class="label label-success">TERTUTUP</span>'
                 : '<span class="label label-danger">TERBUKA</span>';
 
