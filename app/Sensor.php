@@ -10,7 +10,8 @@ class Sensor extends Model
         'code', 'description', 'position', 'ip_address',
         'web_access', 'username', 'password', 'ruang_id', 'gedung_id',
         'appliance_id', 'rak_id', 'snmp_version', 'snmp_community',
-        'modbus_offset_start', 'modbus_offset_end', 'monitor'
+        'modbus_offset_start', 'modbus_offset_end', 'monitor',
+        'modbus_device_id'
     ];
 
     public function ruang() {

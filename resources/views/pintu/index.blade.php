@@ -4,27 +4,23 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h2>SENSOR <small>Manage</small></h2><hr>
+        <h2>PINTU <small>Kelola</small></h2><hr>
         <table class="table table-striped table-hover" id="bootgrid">
             <thead>
                 <tr>
                     <th data-column-id="id" data-identifier="true" data-type="numeric">ID</th>
-                    <th data-column-id="gedung">Building</th>
-                    <th data-column-id="lantai">Floor</th>
-                    <th data-column-id="ruang">Room</th>
-                    <th data-column-id="rak">Rack</th>
-                    <th data-column-id="position">Position</th>
-                    <th data-column-id="appliance">Appliance</th>
-                    <th data-column-id="protocol">Protocol</th>
-                    <th data-column-id="code">Code</th>
-                    <th data-column-id="description">Description</th>
+                    <th data-column-id="gedung">Gedung</th>
+                    <th data-column-id="lantai">Lantai</th>
+                    <th data-column-id="ruang">Ruang</th>
+                    <th data-column-id="name">Nama</th>
+                    <th data-column-id="code">Kode</th>
+                    <th data-column-id="description">Deskripsi</th>
                     <th data-column-id="ip_address">IP Address</th>
-                    <th data-column-id="snmp_version">SNMP Version</th>
-                    <th data-column-id="snmp_community">SNMP Community</th>
-                    <th data-column-id="modbus_device_id">MODBUS Device ID</th>
-                    <th data-column-id="modbus_offset_start">MODBUS Offset Start</th>
-                    <th data-column-id="modbus_offset_end">MODBUS Offset End</th>
-                    <th data-column-id="monitor" data-formatter="monitor">Monitor</th>
+                    <th data-column-id="username">Username</th>
+                    <th data-column-id="password">Password</th>
+                    <th data-column-id="status" data-formatter="status">Status</th>
+                    <th data-column-id="last_access_time">Akses Terakhir</th>
+                    <th data-column-id="last_access_by">Akses Oleh</th>
                     <th data-column-id="commands"
                         data-formatter="commands"
                         data-sortable="false"
@@ -42,10 +38,10 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="{{url('sensor/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
+    var btn = '<a href="{{url('pintu/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '{{url('sensor')}}',
+        ajax: true, url: '{{url('pintu')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         templates: {
@@ -53,15 +49,12 @@
         },
         formatters: {
             "commands": function(column, row) {
-                return "<a class=\"btn btn-xs btn-default\" href=\"{{url('sensor')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
+                return "<a class=\"btn btn-xs btn-default\" href=\"{{url('pintu')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
                     "<button class=\"btn btn-xs btn-default c-delete\" data-id=\"" + row.id + "\"><i class=\"fa fa-trash\"></i></button>";
             },
-            "monitor": function(column, row) {
-                return row.monitor == 1 ? 'Yes' : 'No'
-            },
-            // "gedung": function(column, row) {
-            //     return row.gedung + '/' + row.lantai;
-            // }
+            "status": function(column, row) {
+                return row.status == 1 ? "Tertutup" : "Terbuka";
+            }
         }
     }).on("loaded.rs.jquery.bootgrid", function() {
         grid.find(".c-delete").on("click", function(e) {
@@ -74,7 +67,7 @@
             $.ajax({
                 type: 'POST',
                 data: {'_method' : 'DELETE'},
-                url: '{{url("sensor")}}/' + id,
+                url: '{{url("pintu")}}/' + id,
                 success: function(r) {
                     console.log(r);
                     $('#bootgrid').bootgrid('reload');

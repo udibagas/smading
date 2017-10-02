@@ -164,6 +164,19 @@
         </div>
     </div>
 
+    <div class="form-group{{ $errors->has('modbus_device_id') ? ' has-error' : '' }}">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="modbus_device_id">MODBUS Device ID </label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            {{ Form::number('modbus_device_id', $sensor->modbus_device_id, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'MODBUS Device ID']) }}
+
+            @if ($errors->has('modbus_device_id'))
+                <span class="help-block">
+                    <strong>{{ $errors->first('modbus_device_id') }}</strong>
+                </span>
+            @endif
+        </div>
+    </div>
+
     <div class="form-group{{ $errors->has('modbus_offset_start') ? ' has-error' : '' }}">
         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="modbus_offset_start">MODBUS Offset Start </label>
         <div class="col-md-6 col-sm-6 col-xs-12">

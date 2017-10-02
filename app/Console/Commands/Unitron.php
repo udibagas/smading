@@ -52,13 +52,24 @@ class Unitron extends Command
             foreach ($sensors as $sensor) {
                 if ($sensor->appliance->protocol == 'snmp') {
                     $this->snmp($sensor);
-                } else {
+                }
+
+                if ($sensor->appliance->protocol == 'modbustcp') {
                     $this->modbustcp($sensor);
+                }
+
+                if ($sensor->appliance->protocol == 'http') {
+                    $this->http($sensor);
                 }
             }
 
             sleep($this->sleep);
         }
+    }
+
+    protected function http($sensor)
+    {
+
     }
 
     protected function snmp($sensor)
@@ -101,7 +112,7 @@ class Unitron extends Command
             // $valueRaw   = substr($snmpOutput, $substrStart, $substrEnd);
             // $value      = $this->convertValue($valueRaw, $snmpOid->conversion);
 
-            // atau ini
+            // atau ini => GA BISA! ga tau di index ke berapa value-nya
             preg_match_all('!\d+!', $snmpOutput, $matches);
             $value = $matches[0];
 
@@ -128,11 +139,12 @@ class Unitron extends Command
     {
         // $modbus = new ModbusMaster($sensor->ip_address, "TCP");
         // $modbus->timeout_sec = 1;
+        // $device_id = $sensor->modbus_device_id;
         // $length = $sensor->modbus_offset_end - $sensor->modbus_offset_start;
         // $offset = $sensor->modbus_offset_start;
         //
         // try {
-        //     $recData = $modbus->readMultipleRegisters(0, $offset, $length);
+        //     $recData = $modbus->readMultipleRegisters($device_id, $offset, $length);
         // } catch (Exception $e) {
         //     $this->error('['.date('Y-m-d H:i:s').'] modbus '.$sensor->ip_address.' error : '.$e->getMessage());
         //     return;

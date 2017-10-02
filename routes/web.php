@@ -21,9 +21,13 @@ Route::group(['middleware' => 'auth'], function() {
     Route::resource('/alarm', 'AlarmController');
     Route::resource('/audit', 'AuditController');
     Route::resource('/bukutamu', 'BukutamuController');
+    Route::get('/denah/index', 'DenahController@index1');
+    Route::resource('/denah', 'DenahController');
     Route::resource('/gedung', 'GedungController');
     Route::resource('/inventory', 'InventoryController');
+    Route::resource('/logPintu', 'LogPintuController', ['only' => ['index']]);
     Route::resource('/pemeliharaan', 'PemeliharaanController');
+    Route::resource('/pintu', 'PintuController');
     Route::resource('/rak', 'RakController');
     Route::resource('/ruang', 'RuangController');
     Route::resource('/sensor', 'SensorController');
@@ -45,7 +49,10 @@ Route::group(['middleware' => 'auth'], function() {
 
     Route::get('/pemantauan', function() {
         return view ('pemantauan', [
-            'monitoringGroups' => \App\MonitoringGroup::all()
+            'monitoringGroups' => \App\MonitoringGroup::all(),
+            'ruangs' => \App\Ruang::all(),
+            'raks' => \App\Rak::all(),
+            'pintus' => \App\Pintu::all(),
         ]);
     });
 
@@ -57,12 +64,12 @@ Route::group(['middleware' => 'auth'], function() {
         return view ('asset');
     });
 
-    Route::get('/tren', function() {
-        return view ('tren');
+    Route::get('/rekaman', function() {
+        return view ('rekaman');
     });
 
-    Route::get('/denah', function() {
-        return view ('denah');
+    Route::get('/tren', function() {
+        return view ('tren');
     });
 
     Route::get('/it-peripheral', function() {

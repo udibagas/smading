@@ -82,7 +82,7 @@ class RuangController extends Controller
      */
     public function show(Ruang $ruang)
     {
-        return view('ruang.show');
+        return view('ruang.show', ['ruang' => $ruang]);
     }
 
     /**
@@ -127,6 +127,10 @@ class RuangController extends Controller
      */
     public function destroy(Ruang $ruang)
     {
+        if ($ruang->layout && file_exists($ruang->layout)) {
+            unlink($ruang->layout);
+        }
+
         return ['success' => $ruang->delete()];
     }
 }

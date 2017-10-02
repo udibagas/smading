@@ -21,52 +21,12 @@
 </head>
 <body style="background: url('{{url('images/dc.png')}}');background-size: cover;background-repeat: no-repeat;">
     <div id="app">
-        <!-- <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-navbar-collapse">
-                        <span class="sr-only">Toggle Navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a class="navbar-brand" href="{{ url('/') }}">
-                        SMADING
-                    </a>
-                </div>
-
-                <div class="collapse navbar-collapse" id="app-navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        &nbsp;
-                    </ul>
-
-                    <ul class="nav navbar-nav navbar-right">
-                        @if (Auth::guest())
-                            <li><a href="{{ route('login') }}">Login</a></li>
-                            <li><a href="{{ route('register') }}">Register</a></li>
-                        @else
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
-                                </a>
-
-                                <ul class="dropdown-menu" role="menu">
-                                    <li>
-                                        <a href="{{ route('logout') }}"
-                                            onclick="event.preventDefault();
-                                                     document.getElementById('logout-form').submit();">
-                                            Logout
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                        @endif
-                    </ul>
-                </div>
+        <nav class="navbar navbar-satic-top">
+            <div class="container-fluid">
+                <img src="{{asset('images/logo.png')}}" alt="" style="display:inline-block;height:70px;">
+                <!-- <h2>SMADING UNITRON NEXT GENERATION</h2> -->
             </div>
-        </nav> -->
+        </nav>
 
         <div class="container-fluid">
             @yield('content')
@@ -74,7 +34,6 @@
 
         <div class="navbar-fixed-bottom menu-bottom">
             <div class="row">
-                <div class="col-md-1"> </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
                         <a href="{{url('home')}}" class="main-menu-btn @if (url()->current() == url('/')) active @endif">
@@ -83,17 +42,17 @@
                         </a>
                     </div>
                 </div>
-                <!-- <div class="col-md-1">
+                <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="/denah" class="main-menu-btn @if (url()->current() == url('/denah')) active @endif">
+                        <a href="{{url('denah/index')}}" class="main-menu-btn @if (url()->current() == url('denah')) active @endif">
                             <i class="fa fa-th-large fa-5x"></i><br>
                             DENAH
                         </a>
                     </div>
-                </div> -->
+                </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="{{url('tren')}}" class="main-menu-btn @if (url()->current() == url('/tren')) active @endif">
+                        <a href="{{url('tren')}}" class="main-menu-btn @if (url()->current() == url('tren')) active @endif">
                             <i class="fa fa-area-chart fa-5x"></i><br>
                             TREN
                         </a>
@@ -101,7 +60,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="{{asset('pemantauan')}}" class="main-menu-btn @if (url()->current() == url('/pemantauan')) active @endif">
+                        <a href="{{url('pemantauan')}}" class="main-menu-btn @if (url()->current() == url('/pemantauan')) active @endif">
                             <i class="fa fa-binoculars fa-5x"></i><br>
                             PEMANTAUAN
                         </a>
@@ -109,8 +68,16 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="{{asset('asset')}}" class="main-menu-btn @if (url()->current() == url('/asset')) active @endif">
-                            <i class="fa fa-barcode fa-5x"></i><br>
+                        <a href="{{url('rekaman')}}" class="main-menu-btn @if (url()->current() == url('rekaman')) active @endif">
+                            <i class="fa fa-hdd-o fa-5x"></i><br>
+                            REKAMAN
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <div class="menu-holder">
+                        <a href="{{url('asset')}}" class="main-menu-btn @if (url()->current() == url('/asset')) active @endif">
+                            <i class="fa fa-cubes fa-5x"></i><br>
                             ASSET
                         </a>
                     </div>
@@ -149,7 +116,7 @@
                 </div>
                 <div class="col-md-1">
                     <div class="menu-holder">
-                        <a href="{{url('profile')}}" class="main-menu-btn @if (url()->current() == url('/profile')) active @endif">
+                        <a href="{{url('profile')}}" class="main-menu-btn @if (url()->current() == url('profile')) active @endif">
                             <i class="fa fa-user fa-5x"></i><br>
                             PROFIL
                         </a>

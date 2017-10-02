@@ -1,0 +1,39 @@
+MEMORY ADDRESS PANEL LISTRIK
+============================
+IP Address: 10.45.5.131
+Device ID:2
+Peta memory:
+
+0002H => 40003  (bagi 100 V) --> Tegangan L1-N
+0004H => 40005  (bagi 100 V) --> Tegangan L2-N
+0006H => 40007  (bagi 100 V) --> Tegangan L3-N
+006AH => 40107  (bagi 100 V) --> Tegangan N-Ground  (tidak perlu ditampilkan)
+
+0008H => 40009  (bagi 10.000 A) --> Arus L1
+000AH => 40011  (bagi 10.000 A) --> Arus L2
+000CH => 40013  (bagi 10.000 A) --> Arus L3
+0048H => 40073  (bagi 10.000 A) --> Arus Netral
+
+000EH => 40015  (bagi 100 V) --> Tegangan L1-L2
+0010H => 40017  (bagi 100 V) --> Tegangan L2-L3
+0012H => 40019  (bagi 100 V) --> Tegangan L3-L1
+
+0014H => 40021  (bagi 100 W) --> Daya Aktif L1
+0016H => 40023  (bagi 100 W) --> Daya Aktif L2
+0018H => 40025  (bagi 100 W) --> Daya Aktif L3
+
+0032H => 40051  (bagi 1000 Hz) --> Frekuensi
+
+0054H => 40085  (bagi 100 %) --> THDV L1
+0056H => 40087  (bagi 100 %) --> THDV L2
+0058H => 40089  (bagi 100 %) --> THDV L3
+0066H => 40103  (bagi 100 %) --> THDV N-Ground  (tidak perlu ditampilkan)
+
+0060H => 40097  (bagi 100 %) --> THDV L1-L2
+0062H => 40099  (bagi 100 %) --> THDV L2-L3
+0064H => 40101  (bagi 100 %) --> THDV L3-L1
+
+005AH => 40091  (bagi 100 %) --> THDI L1 (tidak perlu ditampilkan)
+005CH => 40093  (bagi 100 %) --> THDI L2 (tidak perlu ditampilkan)
+005EH => 40095  (bagi 100 %) --> THDI L3 (tidak perlu ditampilkan)
+0068H => 40105  (bagi 100 %) --> THDI N (tidak perlu ditampilkan)

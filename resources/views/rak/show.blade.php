@@ -4,12 +4,8 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h2>TREN</h2><hr>
+        <h2>PEMANTAUAN RAK {{$rak->code}} : {{$rak->name}}</h2><hr>
     </div>
 </div>
 
 @endsection
-
-@push('scripts')
-
-@endpush

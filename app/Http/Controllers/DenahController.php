@@ -3,10 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Rak;
-use App\Http\Requests\RakRequest;
+use App\Denah;
+use App\Http\Requests\DenahRequest;
 
-class RakController extends Controller
+class DenahController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -17,31 +17,32 @@ class RakController extends Controller
     {
         $pageSize = $request->rowCount > 0 ? $request->rowCount : 1000000;
         $request['page'] = $request->current;
-        $sort = $request->sort ? key($request->sort) : 'name';
+        $sort = $request->sort ? key($request->sort) : 'denahs.lantai';
         $dir = $request->sort ? $request->sort[$sort] : 'asc';
 
-        $raks = Rak::selectRaw('raks.*, gedungs.name AS gedung, ruangs.name AS ruang, ruangs.lantai AS lantai')
-            ->join('gedungs', 'gedungs.id', '=', 'raks.gedung_id')
-            ->join('ruangs', 'ruangs.id', '=', 'raks.ruang_id')
+        $denahs = Denah::selectRaw('denahs.*, gedungs.name AS gedung')
+            ->join('gedungs', 'gedungs.id', '=', 'denahs.gedung_id')
             ->when($request->searchPhrase, function($query) use ($request) {
                 return $query
-                    ->where('name', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('code', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('description', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('ruang.name', 'LIKE', '%'.$request->searchPhrase.'%')
+                    ->where('lantai', 'LIKE', '%'.$request->searchPhrase.'%')
                     ->orWhere('gedung.name', 'LIKE', '%'.$request->searchPhrase.'%');
             })->orderBy($sort, $dir)->paginate($pageSize);
 
         if ($request->ajax()) {
             return [
-                'rowCount' => $raks->perPage(),
-                'total' => $raks->total(),
-                'current' => $raks->currentPage(),
-                'rows' => $raks->items(),
+                'rowCount' => $denahs->perPage(),
+                'total' => $denahs->total(),
+                'current' => $denahs->currentPage(),
+                'rows' => $denahs->items(),
             ];
         }
 
-        return view('rak.index', ['raks' => $raks]);
+        return view('denah.index', ['denahs' => $denahs]);
+    }
+
+    public function index1()
+    {
+        return view('denah.index1', ['denahs' => Denah::all()]);
     }
 
     /**
@@ -51,7 +52,7 @@ class RakController extends Controller
      */
     public function create()
     {
-        return view('rak.create', ['rak' => new Rak]);
+        return view('denah.create', ['denah' => new Denah]);
     }
 
     /**
@@ -60,20 +61,20 @@ class RakController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(RakRequest $request)
+    public function store(DenahRequest $request)
     {
         $data = $request->all();
 
-        if ($request->hasFile('layout'))
+        if ($request->hasFile('gambar'))
         {
-            $file = $request->file('layout');
+            $file = $request->file('gambar');
             $fileName = time().'_'.$file->getClientOriginalName();
             $file->move('uploads', $fileName);
-            $data['layout'] = 'uploads/'.$fileName;
+            $data['gambar'] = 'uploads/'.$fileName;
         }
 
-        Rak::create($data);
-        return redirect('/rak');
+        Denah::create($data);
+        return redirect('/denah');
     }
 
     /**
@@ -82,9 +83,9 @@ class RakController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Rak $rak)
+    public function show(Denah $denah)
     {
-        return view('rak.show', ['rak' => $rak]);
+        return view('denah.show', ['denah' => $denah]);
     }
 
     /**
@@ -93,9 +94,9 @@ class RakController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Rak $rak)
+    public function edit(Denah $denah)
     {
-        return view('rak.edit', ['rak' => $rak]);
+        return view('denah.edit', ['denah' => $denah]);
     }
 
     /**
@@ -105,20 +106,20 @@ class RakController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(RakRequest $request, Rak $rak)
+    public function update(DenahRequest $request, Denah $denah)
     {
         $data = $request->all();
 
-        if ($request->hasFile('layout'))
+        if ($request->hasFile('gambar'))
         {
-            $file = $request->file('layout');
+            $file = $request->file('gambar');
             $fileName = time().'_'.$file->getClientOriginalName();
             $file->move('uploads', $fileName);
-            $data['layout'] = 'uploads/'.$fileName;
+            $data['gambar'] = 'uploads/'.$fileName;
         }
 
-        $rak->update($data);
-        return redirect('/rak');
+        $denah->update($data);
+        return redirect('/denah');
     }
 
     /**
@@ -127,12 +128,12 @@ class RakController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Rak $rak)
+    public function destroy(Denah $denah)
     {
-        if ($rak->layout && file_exists($rak->layout)) {
-            unlink($rak->layout);
+        if ($denah->gambar && file_exists($denah->gambar)) {
+            unlink($denah->gambar);
         }
 
-        return ['success' => $rak->delete()];
+        return ['success' => $denah->delete()];
     }
 }

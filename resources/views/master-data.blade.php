@@ -3,7 +3,6 @@
 @section('content')
 
 <br><br>
-<br><br>
 
 <div class="row">
     <div class="col-md-2">
@@ -21,12 +20,12 @@
     </div>
     <div class="col-md-2">
         <div class="menu-holder" style="margin-bottom:40px;">
-            <a href="{{url('rak')}}"><i class="fa fa-building fa-5x"></i><br> RAK</a>
+            <a href="{{url('pintu')}}"><i class="fa fa-pause fa-5x"></i><br> PINTU</a>
         </div>
     </div>
     <div class="col-md-2">
         <div class="menu-holder" style="margin-bottom:40px;">
-            <a href="{{url('denah')}}"><i class="fa fa-th fa-5x"></i><br> DENAH</a>
+            <a href="{{url('rak')}}"><i class="fa fa-building fa-5x"></i><br> RAK</a>
         </div>
     </div>
 </div>
@@ -34,6 +33,11 @@
 <div class="row">
     <div class="col-md-2">
 
+    </div>
+    <div class="col-md-2">
+        <div class="menu-holder" style="margin-bottom:40px;">
+            <a href="{{url('denah')}}"><i class="fa fa-th fa-5x"></i><br> DENAH</a>
+        </div>
     </div>
     <div class="col-md-2">
         <div class="menu-holder" style="margin-bottom:40px;">
@@ -48,11 +52,6 @@
     <div class="col-md-2">
         <div class="menu-holder" style="margin-bottom:40px;">
             <a href="{{url('sensor')}}"><i class="fa fa-map-marker fa-5x"></i><br> SENSOR</a>
-        </div>
-    </div>
-    <div class="col-md-2">
-        <div class="menu-holder" style="margin-bottom:40px;">
-            <a href="{{url('user')}}"><i class="fa fa-users fa-5x"></i><br> USERS</a>
         </div>
     </div>
 </div>
@@ -95,6 +94,11 @@
     <div class="col-md-2">
         <div class="menu-holder" style="margin-bottom:40px;">
             <a href="{{url('monitoring')}}"><i class="fa fa-binoculars fa-5x"></i><br> MONITORING</a>
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="menu-holder" style="margin-bottom:40px;">
+            <a href="{{url('user')}}"><i class="fa fa-users fa-5x"></i><br> USERS</a>
         </div>
     </div>
 </div>

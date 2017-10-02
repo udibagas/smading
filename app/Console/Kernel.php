@@ -15,7 +15,10 @@ class Kernel extends ConsoleKernel
     protected $commands = [
         Commands\Unitron::class,
         Commands\DeletePer15::class,
-        Commands\DeletePerDay::class
+        Commands\DeletePerDay::class,
+        Commands\ModbusTest::class,
+        Commands\SnmpTest::class,
+        Commands\ApiTest::class
     ];
 
     /**

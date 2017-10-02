@@ -20,6 +20,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::post('logPintu', 'LogPintuController@store');
+
 Route::get('aaa', function() {
     $client = new Client(); //GuzzleHttp\Client
     $result = $client->get('http://192.168.1.177:8704');
