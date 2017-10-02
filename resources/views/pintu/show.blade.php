@@ -39,15 +39,21 @@
                         </tr>
                         <tr>
                             <td>Status</td>
-                            <td>
+                            <td id="status">
                                 {!! $pintu->status ? "<span class=\"label label-success\">TERTUTUP</span>" : "<span class=\"label label-danger\">TERBUKA</span>" !!}
                             </td>
                         </tr>
                         <tr>
-                            <td>Akses Terakhir</td><td>{{ $pintu->last_access_time ? $pintu->last_access_time->diffForHumans() : '' }}</td>
+                            <td>Akses Terakhir</td>
+                            <td id="last_access_time">
+                                {{ $pintu->last_access_time ? $pintu->last_access_time->diffForHumans() : '' }}
+                            </td>
                         </tr>
                         <tr>
-                            <td>Akses Oleh</td><td>{{ $pintu->last_access_by }}</td>
+                            <td>Akses Oleh</td>
+                            <td id="last_access_by">
+                                {{ $pintu->last_access_by }}
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -88,6 +94,16 @@
 
     setInterval(function() {
         $('#bootgrid').bootgrid('reload');
+        $.get('{{url("pintu/".$pintu->id)}}', function(j) {
+            status = j.stts
+                ? '<span class="label label-success">TERTUTUP</span>'
+                : '<span class="label label-danger">TERBUKA</span>';
+
+            $('#status').html(status);
+            $('#last_access_time').html(j.last_access_time);
+            $('#last_access_by').html(j.last_access_by);
+
+        }, 'json');
     }, 3000);
 
 </script>

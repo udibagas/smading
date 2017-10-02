@@ -73,8 +73,12 @@ class PintuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Pintu $pintu)
+    public function show(Pintu $pintu, Request $request)
     {
+        if ($request->ajax()) {
+            return $pintu;
+        }
+        
         return view('pintu.show', ['pintu' => $pintu]);
     }
 
