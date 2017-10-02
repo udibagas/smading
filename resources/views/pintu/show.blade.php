@@ -79,7 +79,9 @@
         searchSettings: { delay: 100, characters: 3 },
         formatters: {
             "stts": function(column, row) {
-                return row.stts == 1 ? "Tutup" : "Buka";
+                return row.stts == 1
+                    ? "<span class=\"label label-success\">Tutup</span>"
+                    : "<span class=\"label label-danger\">Buka</span>";
             }
         }
     });
