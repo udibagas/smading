@@ -20,7 +20,7 @@ class PintuController extends Controller
         $sort = $request->sort ? key($request->sort) : 'name';
         $dir = $request->sort ? $request->sort[$sort] : 'asc';
 
-        $pintus = Pintu::selectRaw('pintus.*, gedungs.name AS gedung, ruangs.name AS ruang, ruangs.lantai AS lantai')
+        $pintus = Pintu::selectRaw('pintus.*, pintus.status AS stts, gedungs.name AS gedung, ruangs.name AS ruang, ruangs.lantai AS lantai')
             ->join('gedungs', 'gedungs.id', '=', 'pintus.gedung_id')
             ->join('ruangs', 'ruangs.id', '=', 'pintus.ruang_id')
             ->when($request->searchPhrase, function($query) use ($request) {
@@ -78,7 +78,7 @@ class PintuController extends Controller
         if ($request->ajax()) {
             return $pintu;
         }
-        
+
         return view('pintu.show', ['pintu' => $pintu]);
     }
 

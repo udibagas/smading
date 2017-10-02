@@ -14,6 +14,8 @@ class Pintu extends Model
 
     protected $dates = ['last_access_time'];
 
+    protected $hidden = ['status'];
+
     public function gedung() {
         return $this->belongsTo(Gedung::class);
     }

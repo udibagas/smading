@@ -18,7 +18,7 @@
                     <th data-column-id="ip_address">IP Address</th>
                     <th data-column-id="username">Username</th>
                     <th data-column-id="password">Password</th>
-                    <th data-column-id="status" data-formatter="status">Status</th>
+                    <th data-formatter="stts">Status</th>
                     <th data-column-id="last_access_time">Akses Terakhir</th>
                     <th data-column-id="last_access_by">Akses Oleh</th>
                     <th data-column-id="commands"
@@ -52,8 +52,10 @@
                 return "<a class=\"btn btn-xs btn-default\" href=\"{{url('pintu')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
                     "<button class=\"btn btn-xs btn-default c-delete\" data-id=\"" + row.id + "\"><i class=\"fa fa-trash\"></i></button>";
             },
-            "status": function(column, row) {
-                return row.status == 1 ? "Tertutup" : "Terbuka";
+            "stts": function(column, row) {
+                return row.stts == 1
+                    ? "<span class=\"label label-success\">Tertutup</span>"
+                    : "<span class=\"label label-danger\">Terbuka</span>";
             }
         }
     }).on("loaded.rs.jquery.bootgrid", function() {
