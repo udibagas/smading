@@ -16,6 +16,12 @@ class Pintu extends Model
 
     protected $hidden = ['status'];
 
+    protected $appends = ['stts'];
+
+    protected function getSttsAttribute() {
+        return $this->attributes['stts'] = $this->status;
+    }
+
     public function gedung() {
         return $this->belongsTo(Gedung::class);
     }
