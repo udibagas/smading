@@ -94,9 +94,11 @@ app.controller('MainController', function($scope, $http, $interval) {
                             show: true,
                             lineStyle: {
                                 color: [
-                                    [{{$m->min_value/$m->monitoringParameter->max_value}}, 'red'],
-                                    [{{$m->max_value/$m->monitoringParameter->max_value}}, 'green'],
-                                    [1, 'red']
+                                    [{{$m->min_value/$m->monitoringParameter->max_value}}, '#ff4500'],
+                                    [{{$m->lo_value/$m->monitoringParameter->max_value}},'orange'],
+                                    [{{$m->hi_value/$m->monitoringParameter->max_value}}, 'green'],
+                                    [{{$m->max_value/$m->monitoringParameter->max_value}}, 'orange'],
+                                    [1, '#ff4500']
                                 ],
                                 width: 10
                             },
