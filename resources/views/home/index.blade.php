@@ -142,7 +142,7 @@ app.controller('MainController', function($scope, $http, $interval) {
                                 fontSize: 20
                             }
                         },
-                        data: [{value: 0, name: '{{$m->ruang->name}}'}]
+                        data: [{value: 0, name: '{{$m->ruang->name}} {{$m->rak ? $m->rak->name : ""}}'}]
                     }]
                 });
 
@@ -152,7 +152,7 @@ app.controller('MainController', function($scope, $http, $interval) {
                         console.log(j.data);
                         chart{{$m->id}}.setOption({
                             series: [{
-                                data: [{value: j.data, name: '{{$m->ruang->name}}'}]
+                                data: [{value: j.data, name: '{{$m->ruang->name}} {{$m->rak ? $m->rak->name : ""}}'}]
                             }]
                         });
                     });
