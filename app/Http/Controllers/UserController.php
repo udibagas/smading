@@ -34,7 +34,7 @@ class UserController extends Controller
                 'rows' => $users->items(),
             ];
         }
-        
+
         return view('user.index', ['users' => $users]);
     }
 
@@ -56,7 +56,10 @@ class UserController extends Controller
      */
     public function store(UserRequest $request)
     {
-        User::create($request->all());
+        $data = $request->all();
+        $data['password'] = bcrypt($data['password']);
+
+        User::create($data);
         return redirect('/user');
     }
 
@@ -91,7 +94,9 @@ class UserController extends Controller
      */
     public function update(UserRequest $request, User $user)
     {
-        $user->update($request->all());
+        $data = $request->all();
+        $data['password'] = bcrypt($data['password']);
+        $user->update($data);
         return redirect('/user');
     }
 

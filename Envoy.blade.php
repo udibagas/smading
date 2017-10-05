@@ -1,4 +1,4 @@
-@servers(['testing' => 'root@128.199.105.141', 'purwakarta' => 'smading@10.45.5.20'])
+@servers(['testing' => 'root@128.199.105.141', 'local' => 'smading@10.45.5.20', 'public' => 'smading@114.6.180.154'])
 
 @task('stage', ['on' => 'testing'])
     cd /home/udibagas/apps/smading
@@ -6,7 +6,7 @@
     php artisan migrate
 @endtask
 
-@task('deploy', ['on' => 'purwakarta'])
+@task('deploy', ['on' => 'public'])
     git pull
     php artisan migrate
 @endtask
