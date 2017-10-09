@@ -43,13 +43,20 @@
                     <div class="panel-heading">
                         <h4 class="panel-title"><img src="{{ asset('images/door-open.png')}}" alt="" style="height:20px;"> PINTU</h4>
                     </div>
-                    <div class="list-group">
-                        @foreach ($pintus as $p)
-                        <a href="{{url('pintu/'.$p->id)}}" class="list-group-item list-group-item-{{ $p->status ? 'success' : 'danger' }}">
-                            <img src="{{ $p->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" alt="" style="height:20px;"> {{strtoupper($p->code.': '.$p->name)}}
-                            <span class="badge"><i class="fa fa-angle-double-right"></i></span>
-                        </a>
-                        @endforeach
+                    <div class="panel-body">
+                        <div class="row">
+                            @foreach ($pintus as $p)
+                            <div class="col-md-6 text-center">
+                                <a href="{{url('pintu/'.$p->id)}}">
+                                    <img src="{{ $p->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" alt="" style="height:120px;">
+                                    <h4>
+                                        {{strtoupper($p->code)}}<br>
+                                        <small>{{$p->name}}</small>
+                                    </h4>
+                                </a>
+                            </div>
+                            @endforeach
+                        </div>
                     </div>
                 </div>
             </div>
