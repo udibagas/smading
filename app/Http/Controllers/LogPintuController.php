@@ -27,6 +27,9 @@ class LogPintuController extends Controller
             ->when($request->pintu_id, function($query) use ($request) {
                 return $query->where('log_pintus.pintu_id', $request->pintu_id);
             })
+            ->when($request->ruang_id, function($query) use ($request) {
+                return $query->where('pintus.ruang_id', $request->ruang_id);
+            })
             ->when($request->searchPhrase, function($query) use ($request) {
                 return $query
                     ->where('pintus.name', 'LIKE', '%'.$request->searchPhrase.'%')

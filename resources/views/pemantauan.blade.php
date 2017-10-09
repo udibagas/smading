@@ -8,9 +8,9 @@
         <hr>
         <div class="row">
             <div class="col-md-3">
-                <div class="panel panel-default">
+                <div class="panel panel-success">
                     <div class="panel-heading">
-                        <h4 class="panel-title">PARAMETER</h4>
+                        <h4 class="panel-title"><i class="fa fa-list"></i> PARAMETER</h4>
                     </div>
                     <div class="list-group">
                         @foreach ($monitoringGroups as $g)
@@ -24,9 +24,9 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="panel panel-default">
+                <div class="panel panel-success">
                     <div class="panel-heading">
-                        <h4 class="panel-title">RUANG</h4>
+                        <h4 class="panel-title"><i class="fa fa-th-large"></i> RUANG</h4>
                     </div>
                     <div class="list-group">
                         @foreach ($ruangs as $r)
@@ -39,14 +39,14 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="panel panel-default">
+                <div class="panel panel-success">
                     <div class="panel-heading">
-                        <h4 class="panel-title">PINTU</h4>
+                        <h4 class="panel-title"><img src="{{ asset('images/door-open.png')}}" alt="" style="height:20px;"> PINTU</h4>
                     </div>
                     <div class="list-group">
                         @foreach ($pintus as $p)
-                        <a href="{{url('pintu/'.$p->id)}}" class="list-group-item">
-                            <i class="fa fa-pause"></i> {{strtoupper($p->code.': '.$p->name)}}
+                        <a href="{{url('pintu/'.$p->id)}}" class="list-group-item list-group-item-{{ $p->status ? 'success' : 'danger' }}">
+                            <img src="{{ $p->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" alt="" style="height:20px;"> {{strtoupper($p->code.': '.$p->name)}}
                             <span class="badge"><i class="fa fa-angle-double-right"></i></span>
                         </a>
                         @endforeach
@@ -54,14 +54,14 @@
                 </div>
             </div>
             <div class="col-md-3">
-                <div class="panel panel-default">
+                <div class="panel panel-success">
                     <div class="panel-heading">
-                        <h4 class="panel-title">RAK</h4>
+                        <h4 class="panel-title"><img src="{{ asset('images/rack-icon.png')}}" alt="" style="height:20px;"> RAK</h4>
                     </div>
                     <div class="list-group">
                         @foreach ($raks as $r)
                             <a href="{{url('rak/'.$r->id)}}" class="list-group-item">
-                                <i class="fa fa-building"></i> {{strtoupper($r->code.': '.$r->name)}}
+                                <img src="{{ asset('images/rack-icon-o.png')}}" alt="" style="height:20px;"> {{strtoupper($r->code.': '.$r->name)}}
                                 <span class="badge"><i class="fa fa-angle-double-right"></i></span>
                             </a>
                         @endforeach

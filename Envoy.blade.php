@@ -6,7 +6,7 @@
     php artisan migrate
 @endtask
 
-@task('deploy', ['on' => 'public'])
+@task('deploy', ['on' => 'local'])
     git pull
     php artisan migrate
 @endtask

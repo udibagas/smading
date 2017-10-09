@@ -6,6 +6,9 @@
     <div class="panel-body">
         <h2>LOG PINTU {{$pintu->code}} : {{$pintu->name}}</h2><hr>
         <div class="row">
+            <div class="col-md-2">
+                <img id="gambar_pintu" src="{{ $pintu->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" class="img-responsive" alt="">
+            </div>
             <div class="col-md-3">
                 <table class="table table-striped table-bordered">
                     <tbody>
@@ -58,7 +61,7 @@
                     </tbody>
                 </table>
             </div>
-            <div class="col-md-9">
+            <div class="col-md-7">
                 <table class="table table-striped table-hover" id="bootgrid">
                     <thead>
                         <tr>
@@ -99,9 +102,14 @@
                 ? '<span class="label label-success">TERTUTUP</span>'
                 : '<span class="label label-danger">TERBUKA</span>';
 
+            gambar = j.stts
+                ? "{{asset('images/door-close.png')}}"
+                : "{{asset('images/door-open.png')}}";
+
             $('#status').html(status);
             $('#last_access_time').html(j.last_access_time);
             $('#last_access_by').html(j.last_access_by);
+            $('#gambar_pintu').attr('src', gambar);
 
         }, 'json');
     }, 3000);
