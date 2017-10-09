@@ -2,79 +2,94 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h2>LOG PINTU {{$pintu->code}} : {{$pintu->name}}</h2><hr>
-        <div class="row">
-            <div class="col-md-2">
+<div class="alert alert-success">
+    <h4 style="margin-bottom:0;">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h4>
+</div>
+
+<div class="row">
+    <div class="col-md-2">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title text-center">STATUS PINTU</h2>
+            </div>
+            <div class="alert alert-{{$pintu->status ? 'success' : 'danger'}}"  style="margin-bottom:0;">
                 <img id="gambar_pintu" src="{{ $pintu->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" class="img-responsive" alt="">
-            </div>
-            <div class="col-md-3">
-                <table class="table table-striped table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>Gedung</td>
-                            <td>
-                                <a href="{{url('gedung/'.$pintu->gedung_id)}}">
-                                    {{ $pintu->gedung->name }}
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Ruang</td>
-                            <td>
-                                <a href="{{url('ruang/'.$pintu->ruang_id)}}">
-                                    {{ $pintu->ruang->name }}
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Lantai</td><td>{{ $pintu->ruang->lantai }}</td>
-                        </tr>
-                        <tr>
-                            <td>Kode</td><td>{{ $pintu->code }}</td>
-                        </tr>
-                        <tr>
-                            <td>Nama</td><td>{{ $pintu->name }}</td>
-                        </tr>
-                        <tr>
-                            <td>Deskripsi</td><td>{{ $pintu->description }}</td>
-                        </tr>
-                        <tr>
-                            <td>Status</td>
-                            <td id="status">
-                                {!! $pintu->status ? "<span class=\"label label-success\">TERTUTUP</span>" : "<span class=\"label label-danger\">TERBUKA</span>" !!}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Akses Terakhir</td>
-                            <td id="last_access_time">
-                                {{ $pintu->last_access_time ? $pintu->last_access_time->diffForHumans() : '' }}
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Akses Oleh</td>
-                            <td id="last_access_by">
-                                {{ $pintu->last_access_by }}
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-            <div class="col-md-7">
-                <table class="table table-striped table-hover" id="bootgrid">
-                    <thead>
-                        <tr>
-                            <th data-column-id="created_at">Waktu Akses</th>
-                            <th data-column-id="access_by">Diakses Oleh</th>
-                            <th data-formatter="stts">Status</th>
-                        </tr>
-                    </thead>
-                </table>
             </div>
         </div>
     </div>
-
+    <div class="col-md-3">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">DETAIL PINTU</h2>
+            </div>
+            <table class="table table-striped table-bordered">
+                <tbody>
+                    <tr>
+                        <td>Gedung</td>
+                        <td>
+                            <a href="{{url('gedung/'.$pintu->gedung_id)}}">
+                                {{ $pintu->gedung->name }}
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ruang</td>
+                        <td>
+                            <a href="{{url('ruang/'.$pintu->ruang_id)}}">
+                                {{ $pintu->ruang->name }}
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Lantai</td><td>{{ $pintu->ruang->lantai }}</td>
+                    </tr>
+                    <tr>
+                        <td>Kode</td><td>{{ $pintu->code }}</td>
+                    </tr>
+                    <tr>
+                        <td>Nama</td><td>{{ $pintu->name }}</td>
+                    </tr>
+                    <tr>
+                        <td>Deskripsi</td><td>{{ $pintu->description }}</td>
+                    </tr>
+                    <tr>
+                        <td>Status</td>
+                        <td id="status">
+                            {!! $pintu->status ? "<span class=\"label label-success\">TERTUTUP</span>" : "<span class=\"label label-danger\">TERBUKA</span>" !!}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Akses Terakhir</td>
+                        <td id="last_access_time">
+                            {{ $pintu->last_access_time ? $pintu->last_access_time->diffForHumans() : '' }}
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Akses Oleh</td>
+                        <td id="last_access_by">
+                            {{ $pintu->last_access_by }}
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-7">
+        <div class="panel panel-success">
+            <div class="panel-heading">
+                <h3 class="panel-title">LOG AKSES</h3>
+            </div>
+            <table class="table table-striped table-hover" id="bootgrid">
+                <thead>
+                    <tr>
+                        <th data-column-id="created_at">Waktu Akses</th>
+                        <th data-column-id="access_by">Diakses Oleh</th>
+                        <th data-formatter="stts">Status</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+    </div>
 </div>
 
 @endsection
