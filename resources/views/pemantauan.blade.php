@@ -42,7 +42,7 @@
             <div class="panel-body">
                 <div class="row">
                     @foreach ($pintus as $p)
-                    <div class="col-md-4 text-center">
+                    <div class="col-md-6 text-center">
                         <div id="status{{$p->id}}" class="alert-{{$p->status ? 'success' : 'danger' }}" style="padding:20px 0;">
                             <a href="{{url('pintu/'.$p->id)}}">
                                 <img id="gambar_pintu{{$p->id}}" src="{{ $p->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" alt="" style="height:100px;">
