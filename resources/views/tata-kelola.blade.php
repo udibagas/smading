@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+<i class="fa fa-sitemap"></i> TATA KELOLA
+@endsection
+
 @section('content')
 
 <br><br>

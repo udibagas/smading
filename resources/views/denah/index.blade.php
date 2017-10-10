@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+<i class="fa fa-th-large"></i> DENAH
+@endsection
+
 @section('content')
 
 <div class="panel panel-default">

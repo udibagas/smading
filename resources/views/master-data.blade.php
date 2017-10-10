@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+<i class="fa fa-database"></i> MASTER DATA
+@endsection
+
 @section('content')
 
 <br><br>

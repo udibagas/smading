@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
+
+@section('title')
+<i class="fa fa-cubes"></i> ASSET
+@endsection
+
 @section('content')
 
 <br><br>

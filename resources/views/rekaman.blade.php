@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+<i class="fa fa-hdd-o"></i> REKAMAN
+@endsection
+
 @section('content')
 
 <br><br>

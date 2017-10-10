@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+<i class="fa fa-dashboard"></i> DASHBOARD
+@endsection
+
 @section('content')
 
 <br>

@@ -24,7 +24,7 @@
         <nav class="navbar navbar-satic-top">
             <div class="container-fluid">
                 <div class="pull-right">
-                    <h1 style="color:#009688;">@yield('title')</h1>
+                    <h2 style="color:#009688;font-weight:bold;">@yield('title')</h2>
                 </div>
                 <img src="{{asset('images/logo.png')}}" alt="" style="display:inline-block;height:70px;">
                 <!-- <h2>SMADING UNITRON NEXT GENERATION</h2> -->

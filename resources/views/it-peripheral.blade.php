@@ -1,5 +1,9 @@
 @extends('layouts.app')
 
+@section('title')
+<i class="fa fa-laptop"></i> IT PERIPHERAL
+@endsection
+
 @section('content')
 
 <br><br>
