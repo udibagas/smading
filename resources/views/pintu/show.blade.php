@@ -2,8 +2,10 @@
 
 @section('content')
 
-<div class="alert alert-success">
-    <h4 style="margin-bottom:0;">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h4>
+<div class="panel panel-success">
+    <div class="panel-heading">
+        <h3 class="panel-title">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h3>
+    </div>
 </div>
 
 <div class="row">

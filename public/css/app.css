@@ -8372,7 +8372,6 @@ body {
 .menu-holder a:hover,
 .menu-holder a.active {
   color: #FF5E50;
-  border-top: 4px solid #FF5E50;
 }
 
 .menu-holder {
