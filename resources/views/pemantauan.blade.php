@@ -71,7 +71,7 @@
     <div class="col-md-3">
         <div class="panel panel-success">
             <div class="panel-heading">
-                <h4 class="panel-title"><img src="{{ asset('images/rack-icon.png')}}" alt="" style="height:20px;"> RAK</h4>
+                <h4 class="panel-title"><img src="{{ asset('images/rack-icon-o.png')}}" alt="" style="height:20px;"> RAK</h4>
             </div>
         </div>
         <div class="row">

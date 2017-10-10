@@ -177,32 +177,6 @@
         </div>
     </div>
 
-    <div class="form-group{{ $errors->has('modbus_offset_start') ? ' has-error' : '' }}">
-        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="modbus_offset_start">MODBUS Offset Start </label>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-            {{ Form::number('modbus_offset_start', $sensor->modbus_offset_start, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'MODBUS Offset Start']) }}
-
-            @if ($errors->has('modbus_offset_start'))
-                <span class="help-block">
-                    <strong>{{ $errors->first('modbus_offset_start') }}</strong>
-                </span>
-            @endif
-        </div>
-    </div>
-
-    <div class="form-group{{ $errors->has('modbus_offset_end') ? ' has-error' : '' }}">
-        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="modbus_offset_end">MODBUS Offset End </label>
-        <div class="col-md-6 col-sm-6 col-xs-12">
-            {{ Form::number('modbus_offset_end', $sensor->modbus_offset_end, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'MODBUS Offset End']) }}
-
-            @if ($errors->has('modbus_offset_end'))
-                <span class="help-block">
-                    <strong>{{ $errors->first('modbus_offset_end') }}</strong>
-                </span>
-            @endif
-        </div>
-    </div>
-
     <div class="form-group{{ $errors->has('monitor') ? ' has-error' : '' }}">
         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="monitor">Monitor <span class="required">*</span>
         </label>

@@ -22,8 +22,6 @@
                     <th data-column-id="snmp_version">SNMP Version</th>
                     <th data-column-id="snmp_community">SNMP Community</th>
                     <th data-column-id="modbus_device_id">MODBUS Device ID</th>
-                    <th data-column-id="modbus_offset_start">MODBUS Offset Start</th>
-                    <th data-column-id="modbus_offset_end">MODBUS Offset End</th>
                     <th data-column-id="monitor" data-formatter="monitor">Monitor</th>
                     <th data-column-id="commands"
                         data-formatter="commands"
