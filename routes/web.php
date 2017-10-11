@@ -12,6 +12,9 @@
 */
 
 use App\SensorLog;
+use App\User;
+
+Route::get('adduser', 'UserController@adduser');
 
 Auth::routes();
 

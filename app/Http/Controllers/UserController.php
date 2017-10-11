@@ -110,4 +110,15 @@ class UserController extends Controller
     {
         return ['success' => $user->delete()];
     }
+
+    public function adduser(Request $request)
+    {
+        $user = User::create([
+            'email' => $request->email,
+            'name' => $request->name,
+            'password' => bcrypt($request->password)
+        ]);
+
+        return $user;
+    }
 }
