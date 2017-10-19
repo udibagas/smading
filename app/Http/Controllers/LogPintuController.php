@@ -61,7 +61,7 @@ class LogPintuController extends Controller
      */
     public function store(Request $request)
     {
-        $pintu = Pintu::where('ip_address', $request->ip_address)->first();
+        $pintu = Pintu::where('ip_address', $_SERVER['REMOTE_ADDR'])->first();
 
         if ($pintu) {
             $data = $request->all();
