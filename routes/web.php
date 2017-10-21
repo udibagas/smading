@@ -38,6 +38,7 @@ Route::group(['middleware' => 'auth'], function() {
     Route::resource('/sensorLog15', 'SensorLog15Controller');
     Route::resource('/sensorLogPerDay', 'SensorLogPerDayController');
     Route::resource('/sop', 'SopController');
+    Route::resource('/staff', 'StaffController', ['except' => ['store']]);
     Route::resource('/user', 'UserController');
     Route::resource('/appliance', 'ApplianceController');
     Route::resource('/applianceHttpApi', 'ApplianceHttpApiController');

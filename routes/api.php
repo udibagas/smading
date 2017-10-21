@@ -21,6 +21,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 Route::post('logPintu', 'LogPintuController@store');
+Route::post('staff', 'StaffController@store');
 
 Route::get('aaa', function() {
     $client = new Client(); //GuzzleHttp\Client
