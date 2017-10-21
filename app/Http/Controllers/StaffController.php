@@ -17,15 +17,15 @@ class StaffController extends Controller
     {
         $pageSize = $request->rowCount > 0 ? $request->rowCount : 1000000;
         $request['page'] = $request->current;
-        $sort = $request->sort ? key($request->sort) : 'staffs.nama';
+        $sort = $request->sort ? key($request->sort) : 'nama';
         $dir = $request->sort ? $request->sort[$sort] : 'asc';
 
         $staffs = Staff::when($request->searchPhrase, function($query) use ($request) {
                 return $query
-                    ->where('staffs.nama', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('staffs.jabatan', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('staffs.fp_id', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('staffs.card_id', 'LIKE', '%'.$request->searchPhrase.'%');
+                    ->where('nama', 'LIKE', '%'.$request->searchPhrase.'%')
+                    ->orWhere('jabatan', 'LIKE', '%'.$request->searchPhrase.'%')
+                    ->orWhere('fp_id', 'LIKE', '%'.$request->searchPhrase.'%')
+                    ->orWhere('card_id', 'LIKE', '%'.$request->searchPhrase.'%');
             })->orderBy($sort, $dir)->paginate($pageSize);
 
         if ($request->ajax()) {
