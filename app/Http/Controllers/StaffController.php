@@ -40,6 +40,11 @@ class StaffController extends Controller
         return view('staff.index', ['staffs' => $staffs]);
     }
 
+    public function indexApi(Request $request)
+    {
+        return Staff::all();
+    }
+
     /**
      * Show the form for creating a new resource.
      *
@@ -58,7 +63,8 @@ class StaffController extends Controller
      */
     public function store(StaffRequest $request)
     {
-        return Staff::create($request->all());
+        $staff = Staff::where('uuid', $request->uuid)->first();
+        return $staff ? $staff : Staff::create($request->all());
     }
 
     /**
