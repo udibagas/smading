@@ -78,6 +78,11 @@ class StaffController extends Controller
         return view('staff.show', ['staff' => $staff]);
     }
 
+    public function showApi($id)
+    {
+        return Staff::find($id);
+    }
+
     /**
      * Show the form for editing the specified resource.
      *
