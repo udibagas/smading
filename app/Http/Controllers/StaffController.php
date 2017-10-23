@@ -42,7 +42,7 @@ class StaffController extends Controller
 
     public function indexApi(Request $request)
     {
-        return Staff::all();
+        return Staff::orderBy('nama', 'ASC')->all();
     }
 
     /**
