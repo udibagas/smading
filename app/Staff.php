@@ -9,4 +9,20 @@ class Staff extends Model
     protected $fillable = [
         'nama', 'jabatan', 'fp_id', 'card_id', 'template', 'uuid'
     ];
+
+    protected $appends = ['akses'];
+
+    public function pintu() {
+        return $this->belongsToMany(Pintu::class, 'hak_akses');
+    }
+
+    public function getAksesAttribute() {
+        $akses = [];
+        foreach ($this->pintu as $p) {
+            $akses[] = $p->name;
+        }
+
+        return implode(', ', $akses);
+    }
+
 }

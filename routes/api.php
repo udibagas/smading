@@ -24,6 +24,7 @@ Route::post('logPintu', 'LogPintuController@store');
 Route::post('staff', 'StaffController@store');
 Route::get('staff', 'StaffController@indexApi');
 Route::get('staff/{id}', 'StaffController@showApi');
+Route::get('pintu/staff', 'PintuController@staff');
 
 Route::get('aaa', function() {
     $client = new Client(); //GuzzleHttp\Client

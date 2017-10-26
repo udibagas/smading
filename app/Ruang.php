@@ -17,4 +17,5 @@ class Ruang extends Model
     public function pintu() {
         return $this->hasMany(Pintu::class);
     }
+
 }

@@ -1,8 +1,7 @@
 {!! Form::model($staff, ['class' => 'form-horizontal form-label-left', 'url' => $url, 'method' => $method]) !!}
 
     <div class="form-group{{ $errors->has('nama') ? ' has-error' : '' }}">
-        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-nama">Nama <span class="required">*</span>
-        </label>
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="nama">Nama:</label>
         <div class="col-md-6 col-sm-6 col-xs-12">
             {{ Form::text('nama', $staff->nama, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'Nama']) }}
 
@@ -15,8 +14,7 @@
     </div>
 
     <div class="form-group{{ $errors->has('jabatan') ? ' has-error' : '' }}">
-        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="first-jabatan">Jabatan <span class="required">*</span>
-        </label>
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="jabatan">Jabatan:</label>
         <div class="col-md-6 col-sm-6 col-xs-12">
             {{ Form::text('jabatan', $staff->jabatan, ['class' => 'form-control  col-md-7 col-xs-12', 'placeholder' => 'Jabatan']) }}
 
@@ -27,6 +25,17 @@
             @endif
         </div>
     </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="akses">Hak Akses:</label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            @foreach (\App\Pintu::orderBy('name')->get() as $pintu)
+                <input {{in_array($pintu->id, $staff->pintu()->pluck('pintus.id')->toArray()) ? "checked" : ""}} type="checkbox" name="akses[]" value="{{$pintu->id}}"> {{$pintu->name}} <br>
+            @endforeach
+        </div>
+    </div>
+
+    {{ Form::hidden('uuid', $staff->uuid) }}
 
     <hr>
 

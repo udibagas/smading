@@ -4,16 +4,14 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h2>STAFF</h2><hr>
+        <h2>HAK AKSES</h2><hr>
         <table class="table table-striped table-hover" id="bootgrid">
             <thead>
                 <tr>
                     <th data-column-id="id">ID</th>
                     <th data-column-id="nama">Nama</th>
-                    <th data-column-id="jabatan">Email</th>
-                    <th data-column-id="fp_id">FP ID</th>
-                    <th data-column-id="card_id">Card ID</th>
-                    <th data-column-id="uuid">UUID</th>
+                    <th data-column-id="jabatan">Jabatan</th>
+                    <th data-column-id="akses">Hak Akses</th>
                     <th data-column-id="commands"
                         data-formatter="commands"
                         data-sortable="false"
@@ -31,15 +29,10 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="{{url('staff/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
-
     var grid = $('#bootgrid').bootgrid({
         ajax: true, url: '{{url('staff')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
-        templates: {
-            header: "<div id=\"@{{ctx.id}}\" class=\"@{{css.header}}\"><div class=\"row\"><div class=\"col-sm-12 actionBar\"><p style=\"display:inline-block;margin-right:20px;\">"+btn+"</p><p class=\"@{{css.search}}\"></p><p class=\"@{{css.actions}}\"></p></div></div></div>"
-        },
         formatters: {
             "commands": function(column, row) {
                 return "<a class=\"btn btn-xs btn-default\" href=\"{{url('staff')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +

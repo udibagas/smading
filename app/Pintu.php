@@ -29,4 +29,8 @@ class Pintu extends Model
     public function ruang() {
         return $this->belongsTo(Ruang::class);
     }
+
+    public function staff() {
+        return $this->belongsToMany(Staff::class, 'hak_akses');
+    }
 }

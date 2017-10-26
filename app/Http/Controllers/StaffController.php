@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Staff;
+use App\Pintu;
 use App\Http\Requests\StaffRequest;
 
 class StaffController extends Controller
@@ -64,7 +65,18 @@ class StaffController extends Controller
     public function store(StaffRequest $request)
     {
         $staff = Staff::where('uuid', $request->uuid)->first();
-        return $staff ? $staff : Staff::create($request->all());
+
+        if (!$staff) {
+            $staff = Staff::create($request->all());
+        }
+
+        $pintu = Pintu::where('ip_address', $_SERVER['REMOTE_ADDR'])->first();
+
+        if ($pintu) {
+            $pintu->staff()->attach([$staff->id]);
+        }
+
+        return $staff;
     }
 
     /**
@@ -104,6 +116,7 @@ class StaffController extends Controller
     public function update(StaffRequest $request, Staff $staff)
     {
         $staff->update($request->all());
+        $staff->pintu()->sync($request->akses);
         return redirect('/staff');
     }
 
@@ -115,6 +128,7 @@ class StaffController extends Controller
      */
     public function destroy(Staff $staff)
     {
+        $staff->pintu()->sync([]);
         return ['success' => $staff->delete()];
     }
 }

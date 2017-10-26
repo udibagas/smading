@@ -67,6 +67,12 @@ class PintuController extends Controller
         return redirect('/pintu');
     }
 
+    public function staff(Request $request)
+    {
+        $pintu = Pintu::where('ip_address', $_SERVER['REMOTE_ADDR'])->first();
+        return $pintu ? $pintu->staff : [];
+    }
+
     /**
      * Display the specified resource.
      *

@@ -8363,7 +8363,7 @@ body {
 }
 
 .menu-holder a {
-  color: #009688;
+  color: #ffffff;
   display: block;
   padding: 5px;
   font-weight: bold;
@@ -8375,7 +8375,15 @@ body {
 }
 
 .menu-holder {
+  margin: 10px auto;
   text-align: center;
+  border: 3px solid red;
+  border-radius: 50%;
+  width: 115px;
+  height: 115px;
+  padding: 5px;
+  background: #40C1A6;
+  font-size: 11px;
 }
 
 .panel-success {
