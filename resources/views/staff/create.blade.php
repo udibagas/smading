@@ -4,7 +4,7 @@
 
 <div class="panel panel-default">
     <div class="panel-body">
-        <h2>TAMBAH STAFF</h2><hr>
+        <h2>TAMBAH HAK AKSES</h2><hr>
         @include('staff._form', ['method' => 'POST', 'url' => '/staff'])
     </div>
 </div>
