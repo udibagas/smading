@@ -11,6 +11,7 @@
                     <th data-column-id="id">ID</th>
                     <th data-column-id="nama">Nama</th>
                     <th data-column-id="jabatan">Jabatan</th>
+                    <th data-column-id="active" data-formatter="active">Aktif</th>
                     <th data-column-id="akses">Hak Akses</th>
                     <th data-column-id="commands"
                         data-formatter="commands"
@@ -37,6 +38,11 @@
             "commands": function(column, row) {
                 return "<a class=\"btn btn-xs btn-default\" href=\"{{url('staff')}}/" + row.id + "/edit\"><i class=\"fa fa-edit\"></i></a> " +
                     "<button class=\"btn btn-xs btn-default c-delete\" data-id=\"" + row.id + "\"><i class=\"fa fa-trash\"></i></button>";
+            },
+            "active": function(column, row) {
+                return row.active
+                    ? "<span class=\"label label-success\">Ya</span>"
+                    : "<span class=\"label label-danger\">Tidak</span>";
             }
         }
     }).on("loaded.rs.jquery.bootgrid", function() {

@@ -26,6 +26,20 @@
         </div>
     </div>
 
+    <div class="form-group{{ $errors->has('active') ? ' has-error' : '' }}">
+        <label class="control-label col-md-3 col-sm-3 col-xs-12" for="active">Aktif:</label>
+        <div class="col-md-6 col-sm-6 col-xs-12">
+            {{ Form::radio('active', 1, $staff->active) }} Ya
+            {{ Form::radio('active', 0, !$staff->active) }} Tidak
+
+            @if ($errors->has('active'))
+                <span class="help-block">
+                    <strong>{{ $errors->first('active') }}</strong>
+                </span>
+            @endif
+        </div>
+    </div>
+
     <div class="form-group">
         <label class="control-label col-md-3 col-sm-3 col-xs-12" for="akses">Hak Akses:</label>
         <div class="col-md-6 col-sm-6 col-xs-12">
