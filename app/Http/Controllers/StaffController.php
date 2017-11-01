@@ -24,9 +24,7 @@ class StaffController extends Controller
         $staffs = Staff::when($request->searchPhrase, function($query) use ($request) {
                 return $query
                     ->where('nama', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('jabatan', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('fp_id', 'LIKE', '%'.$request->searchPhrase.'%')
-                    ->orWhere('card_id', 'LIKE', '%'.$request->searchPhrase.'%');
+                    ->orWhere('jabatan', 'LIKE', '%'.$request->searchPhrase.'%');
             })->orderBy($sort, $dir)->paginate($pageSize);
 
         if ($request->ajax()) {
