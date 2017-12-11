@@ -28,6 +28,8 @@ class BukutamuRequest extends FormRequest
             'instansi' => 'required',
             'jabatan' => 'required',
             'tujuan' => 'required',
+            'masuk' => 'date_format:"Y-m-d H:i"|required',
+            'keluar' => 'date_format:"Y-m-d H:i"|required',
         ];
     }
 }
