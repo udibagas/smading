@@ -35,7 +35,7 @@
     var btn = '<a href="{{url('bukutamu/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
 
     var grid = $('#bootgrid').bootgrid({
-        ajax: true, url: '/bukutamu',
+        ajax: true, url: '{{url('bukutamu')}}',
         ajaxSettings: {method: 'GET', cache: false},
         searchSettings: { delay: 100, characters: 3 },
         templates: {

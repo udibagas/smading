@@ -66,6 +66,6 @@ class ModbusTest extends Command
             $dataArray[] = [$offset++, $value];
         }
 
-        // $this->table($header, $dataArray);
+        $this->table($header, $dataArray);
     }
 }
