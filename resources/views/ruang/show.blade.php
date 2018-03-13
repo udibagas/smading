@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <table class="table table-striped table-hover" id="bootgrid">
+                <table class="table table-striped table-hover table-bordered" id="bootgrid">
                     <thead>
                         <tr>
                             <th data-column-id="created_at">Waktu Akses</th>

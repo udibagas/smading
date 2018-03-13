@@ -5,7 +5,7 @@
 <div class="x_panel">
     <div class="x_content">
         <h2>MONITORING <small>Manage</small></h2>
-        <table class="table table-striped table-hover" id="bootgrid">
+        <table class="table table-striped table-hover table-bordered" id="bootgrid">
             <thead>
                 <tr>
                     <th data-column-id="id" data-identifier="true" data-type="numeric">ID</th>

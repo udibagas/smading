@@ -27,7 +27,7 @@
     <!-- Custom styling plus plugins -->
     <link href="{{ asset('gentelella/build/css/custom.css') }}" rel="stylesheet">
 
-    <!-- <link href="{{ asset('css/app.css') }}" rel="stylesheet"> -->
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
 </head>
 <body class="nav-md">
@@ -61,15 +61,15 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li class="">
                     <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                      {{ auth()->user()->name }}
+                      {{ auth()->check() ? auth()->user()->name : '' }}
                       <span class=" fa fa-angle-down"></span>
                     </a>
                     <ul class="dropdown-menu dropdown-usermenu pull-right">
-                      <li><a href="/profile"> Profile
+                      <li><a href="{{url('profile')}}"> Profile
                           <i class="fa fa-user pull-right"></i>
                       </a></li>
                       <li>
-                        <a href="/setting">
+                        <a href="{{url('setting')}}">
                           Settings
                           <i class="fa fa-gear pull-right"></i>
                         </a>
@@ -122,7 +122,7 @@
       <script src="{{ asset('jquery.bootgrid/jquery.bootgrid.min.js') }}"></script>
       <script src="{{ asset('jquery.bootgrid/jquery.bootgrid.fa.min.js') }}"></script>
       <!-- <script src="{{ asset('highcharts/code/js/highcharts.js') }}"></script> -->
-      
+
       <script src="{{ asset('gentelella/vendors/echarts/dist/echarts.min.js') }}"></script>
       <script src="{{ asset('js/angular.min.js') }}"></script>
 

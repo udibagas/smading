@@ -5,7 +5,7 @@
 <div class="x_panel">
     <div class="x_content">
         <h2>SENSOR LOG <small>Per 15 minutes</small></h2>
-        <table class="table table-striped table-hover" id="bootgrid">
+        <table class="table table-striped table-hover table-bordered" id="bootgrid">
             <thead>
                 <tr>
                     <th data-column-id="tanggal">Tanggal</th>

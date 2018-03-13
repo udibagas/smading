@@ -81,7 +81,7 @@
             <div class="x_title">
                 <h3 class="">LOG AKSES</h3>
             </div>
-            <table class="table table-striped table-hover" id="bootgrid">
+            <table class="table table-striped table-hover table-bordered" id="bootgrid">
                 <thead>
                     <tr>
                         <th data-column-id="created_at">Waktu Akses</th>

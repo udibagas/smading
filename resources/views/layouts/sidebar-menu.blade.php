@@ -13,8 +13,8 @@
             </li>
             <li><a><i class="fa fa-hdd-o"></i> Rekaman <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
-                    <li><a href="{{url('lingkungan')}}">Alarm</a></li>
-                    <li><a href="{{url('kelistrikan')}}">Pintu</a></li>
+                    <li><a href="{{url('alarm')}}">Alarm</a></li>
+                    <li><a href="{{url('pintu')}}">Pintu</a></li>
                 </ul>
             </li>
             <li><a><i class="fa fa-cubes"></i> Asset <span class="fa fa-chevron-down"></span></a>

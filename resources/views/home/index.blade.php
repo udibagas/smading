@@ -57,7 +57,7 @@
                     <?php $j = 0; $i++; ?>
                     @foreach ($group->parameter as $p)
                     <?php $j++ ?>
-                    <li role="presentation" class="{{ $i == 1 && $j == 1 ? "active" : ""}}"><a href="#tab_content_{{$p->name}}" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">{{ strtoupper($p->name) }}</a>
+                    <li role="presentation" class="{{ $i == 1 && $j == 1 ? "active" : ""}}"><a href="#tab_content_{{$p->name}}" id="{{$p->name}}-tab" role="tab" data-toggle="tab" aria-expanded="true">{{ strtoupper($p->name) }}</a>
                     @endforeach
                 @endforeach
             </ul>
@@ -67,14 +67,14 @@
                     <?php $j = 0; $i++; ?>
                     @foreach ($group->parameter as $p)
                         <?php $j++ ?>
-                        <div role="tabpanel" class="tab-pane fade {{ $i == 1 && $j == 1 ? "active" : ""}} in" id="tab_content_{{$p->name}}" aria-labelledby="home-tab">
+                        <div role="tabpanel" class="tab-pane fade {{ $i == 1 && $j == 1 ? "active" : ""}} in" id="tab_content_{{$p->name}}" aria-labelledby="{{$p->name}}-tab">
                             <div class="row">
                                 @foreach ($p->monitoring as $m)
-                                <div class="col-md-2 col-sm-4">
+                                <!-- <div class="col-md-2 col-sm-4">
                                     <div class="x_panel">
-                                        <div class="x_content" style="height:200px;" id="chart{{ $m->id }}"> </div>
+                                        <div class="x_content" style="height:210px;" id="chart{{ $m->id }}"> </div>
                                     </div>
-                                </div>
+                                </div> -->
                                 @endforeach
                             </div>
                         </div>
@@ -103,7 +103,7 @@
                     <!-- LOOP RUANG -->
                     @foreach ($p->monitoring as $m)
                     <div class="col-md-2">
-                        <!-- <div style="height:250px;border:1px solid #ddd;margin-bottom:20px;" id="chart{{ $m->id }}"> </div> -->
+                        <div style="height:250px;border:1px solid #ddd;margin-bottom:20px;" id="chart{{ $m->id }}"> </div>
                     </div>
                     @endforeach
                 </div>
@@ -149,13 +149,13 @@ app.controller('MainController', function($scope, $http, $interval) {
                         },
                         axisTick: {
                             show: false,
-                            splitNumber: 9,
-                            length: 8,
-                            lineStyle: {
-                                color: '#eee',
-                                width: 1,
-                                type: 'solid'
-                            }
+                            // splitNumber: 9,
+                            // length: 8,
+                            // lineStyle: {
+                            //     color: '#eee',
+                            //     width: 1,
+                            //     type: 'solid'
+                            // }
                         },
                         splitLine: {
                             show: true,
@@ -193,7 +193,7 @@ app.controller('MainController', function($scope, $http, $interval) {
                 });
 
                 var poll{{$m->id}} = function() {
-                    var url = '/poll?ruang_id={{$m->ruang_id}}&rak_id={{$m->rak_id}}&monitoring_parameter_id={{$m->monitoring_parameter_id}}';
+                    var url = '{{url('poll')}}?ruang_id={{$m->ruang_id}}&rak_id={{$m->rak_id}}&monitoring_parameter_id={{$m->monitoring_parameter_id}}';
                     $http.get(url).then(function(j) {
                         console.log(j.data);
                         chart{{$m->id}}.setOption({
