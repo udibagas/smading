@@ -61,9 +61,7 @@
                         <div class="row">
                             @foreach ($param->monitoring as $m)
                             <div class="col-md-2 col-sm-4">
-                                <div class="x_panel">
-                                    <div class="x_content" style="height:210px;" id="chart{{ $m->id }}"> </div>
-                                </div>
+                                <div class="" style="height:270px;border:1px solid #ddd;padding:5px;border-radius:2px;margin-bottom:20px;" id="chart{{ $m->id }}"> </div>
                             </div>
                             @endforeach
                         </div>

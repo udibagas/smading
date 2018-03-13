@@ -4,6 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\SensorLog;
+use App\Sensor;
+use App\Monitoring;
 use App\Http\Requests\SensorLogRequest;
 
 class SensorLogController extends Controller
@@ -123,6 +125,26 @@ class SensorLogController extends Controller
 
     public function poll(Request $request)
     {
+        $monitor = Monitoring::where('ruang_id', $request->ruang_id)
+                        ->where('monitoring_parameter_id', $request->monitoring_parameter_id)
+                        ->when($request->rak_id, function($query) use ($request) {
+                            return $query->where('rak_id', $request->rak_id);
+                        })
+                        ->first();
+
+        // get sensor terkait
+        $sensor = Sensor::where('ruang_id', $request->ruang_id)
+                        ->when($request->rak_id, function($query) use ($request) {
+                            return $query->where('rak_id', $request->rak_id);
+                        })
+                        ->first();
+
+        SensorLog::create([
+            'sensor_id' => $sensor->id,
+            'monitoring_parameter_id' => $monitor->monitoring_parameter_id,
+            'value' => rand($monitor->min_value, $monitor->max_value)
+        ]);
+
         $log = SensorLog::join('sensors', 'sensors.id', '=', 'sensor_logs.sensor_id')
             ->where('sensors.ruang_id', $request->ruang_id)
             ->where('monitoring_parameter_id', $request->monitoring_parameter_id)
