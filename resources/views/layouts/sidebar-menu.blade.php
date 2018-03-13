@@ -2,7 +2,7 @@
     <div class="menu_section">
         <!-- <h3>Navigasi</h3> -->
         <ul class="nav side-menu">
-            <li> <a href="/"><i class="fa fa-dashboard"></i> Dashboard</a> </li>
+            <li> <a href="{{url('/')}}"><i class="fa fa-dashboard"></i> Dashboard</a> </li>
             <li> <a href="{{url('denah')}}"><i class="fa fa-th-large"></i> Denah</a> </li>
             <li> <a href="{{url('tren')}}"><i class="fa fa-area-chart"></i> Tren</a> </li>
             <li><a><i class="fa fa-binoculars"></i> Pemantauan <span class="fa fa-chevron-down"></span></a>

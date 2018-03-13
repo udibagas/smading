@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\MonitoringGroup;
+use App\MonitoringParameter;
 
 class HomeController extends Controller
 {
@@ -12,10 +13,15 @@ class HomeController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
+        $param = $request->parameter_id
+            ? MonitoringParameter::find($request->parameter_id)
+            : MonitoringParameter::orderBy('name', 'DESC')->first();
+
         return view('home.index', [
-            'monitoringGroup' => MonitoringGroup::all()
+            'params' => MonitoringParameter::orderBy('name', 'DESC')->get(),
+            'param' => $param
         ]);
     }
 }
