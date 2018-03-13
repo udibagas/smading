@@ -141,7 +141,7 @@ app.controller('MainController', function($scope, $http, $interval) {
                 },
                 detail: {
                     show: true,
-                    formatter: '{value}{{$p->unit}}',
+                    formatter: '{value}{{$param->unit}}',
                     offsetCenter: ['0%', 65],
                     textStyle: {
                         color: 'auto',
