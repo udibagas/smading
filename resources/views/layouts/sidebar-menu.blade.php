@@ -30,7 +30,7 @@
             </li>
             <li><a><i class="fa fa-file-text"></i> Tata Kelola <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
-                    <li><a href="{{url('bukuTamu')}}">Buku Tamu</a></li>
+                    <li><a href="{{url('bukutamu')}}">Buku Tamu</a></li>
                     <li><a href="{{url('akses')}}">Hak Akses</a></li>
                     <li><a href="{{url('sop')}}">SOP</a></li>
                     <li><a href="{{('kompetensi')}}">Kompetensi</a></li>
