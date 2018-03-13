@@ -1,8 +1,8 @@
-<div class="panel panel-success">
+<div class="x_panel">
     <div class="panel-heading text-center">
-        <h3 class="panel-title">DAYA PANEL A</h3>
+        <h3 class="">DAYA PANEL A</h3>
     </div>
-    <div class="panel-body">
+    <div class="x_content">
         <div class="row">
             @for ($i=0;$i<4;$i++)
             <div class="col-md-3">

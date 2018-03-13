@@ -2,17 +2,17 @@
 
 @section('content')
 
-<div class="panel panel-success">
-    <div class="panel-heading">
-        <h3 class="panel-title">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h3>
+<div class="x_panel">
+    <div class="x_title">
+        <h3 class="">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h3>
     </div>
 </div>
 
 <div class="row">
     <div class="col-md-2">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title text-center">STATUS PINTU</h2>
+        <div class="x_panel">
+            <div class="x_title">
+                <h3 class=" text-center">STATUS PINTU</h2>
             </div>
             <div class="alert alert-{{$pintu->status ? 'success' : 'danger'}}"  style="margin-bottom:0;">
                 <img id="gambar_pintu" src="{{ $pintu->status ? asset('images/door-close.png') : asset('images/door-open.png') }}" class="img-responsive" alt="">
@@ -20,9 +20,9 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">DETAIL PINTU</h2>
+        <div class="x_panel">
+            <div class="x_title">
+                <h3 class="">DETAIL PINTU</h2>
             </div>
             <table class="table table-striped table-bordered">
                 <tbody>
@@ -77,9 +77,9 @@
         </div>
     </div>
     <div class="col-md-7">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title">LOG AKSES</h3>
+        <div class="x_panel">
+            <div class="x_title">
+                <h3 class="">LOG AKSES</h3>
             </div>
             <table class="table table-striped table-hover" id="bootgrid">
                 <thead>

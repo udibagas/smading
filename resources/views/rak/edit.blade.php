@@ -2,9 +2,12 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h2>TAMBAH RAK</h2><hr>
+<div class="x_panel">
+    <div class="x_title">
+        <h2>TAMBAH RAK</h2>
+        <div class="clearfix"></div>
+    </div>
+    <div class="x_content">
         @include('rak._form', ['method' => 'PUT', 'url' => '/rak/'.$rak->id])
     </div>
 </div>

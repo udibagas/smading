@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h2>PEMANTAUAN {{$ruang->name}} ({{$ruang->code}})</h2><hr>
+<div class="x_panel">
+    <div class="x_content">
+        <h2>PEMANTAUAN {{$ruang->name}} ({{$ruang->code}})</h2>
         <div class="row">
             <div class="col-md-3 text-center">
                 <img src="{{$ruang->layout}}" alt="" class="img-responsive" style="height:350px"><br>

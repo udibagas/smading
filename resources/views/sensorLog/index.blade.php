@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h2>SENSOR LOG <small>Per 5 seconds</small></h2><hr>
+<div class="x_panel">
+    <div class="x_content">
+        <h2>SENSOR LOG <small>Per 5 seconds</small></h2>
         <table class="table table-striped table-hover" id="bootgrid">
             <thead>
                 <tr>

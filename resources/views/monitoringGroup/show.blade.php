@@ -2,22 +2,22 @@
 
 @section('content')
 
-<div ng-app="app" class="panel panel-default" ng-controller="MainController">
-    <div class="panel-body">
+<div ng-app="app" class="x_panel" ng-controller="MainController">
+    <div class="x_content">
         <h2>
             {{ strtoupper($monitoringGroup->name) }}
             <small>Pemantauan {{$monitoringGroup->name}} realtime</small>
-        </h2><hr>
+        </h2>
 
         <!-- LOOP PARAMETER -->
         @foreach ($monitoringGroup->parameter as $p)
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title text-center">
+        <div class="x_panel">
+            <div class="x_title">
+                <h3 class=" text-center">
                     <a href="#">{{ strtoupper($p->name) }}</a>
                 </h3>
             </div>
-            <div class="panel-body">
+            <div class="x_content">
                 <div class="row">
                     <!-- LOOP RUANG -->
                     @foreach ($p->monitoring as $m)

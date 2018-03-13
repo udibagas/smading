@@ -2,8 +2,8 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
+<div class="x_panel">
+    <div class="x_content">
         <h2>Denah Lt. {{$denah->lantai}} {{$denah->gedung->name}}</h2>
         <hr>
         <div class="row">

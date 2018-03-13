@@ -47,23 +47,63 @@
     </div>
 </div>
 
+
+<div class="x_panel">
+    <div class="x_content">
+        <div class="" role="tabpanel" data-example-id="togglable-tabs">
+            <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                <?php $i = 0 ?>
+                @foreach($monitoringGroup as $group)
+                    <?php $j = 0; $i++; ?>
+                    @foreach ($group->parameter as $p)
+                    <?php $j++ ?>
+                    <li role="presentation" class="{{ $i == 1 && $j == 1 ? "active" : ""}}"><a href="#tab_content_{{$p->name}}" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">{{ strtoupper($p->name) }}</a>
+                    @endforeach
+                @endforeach
+            </ul>
+            <div id="myTabContent" class="tab-content">
+                <?php $i = 0 ?>
+                @foreach($monitoringGroup as $group)
+                    <?php $j = 0; $i++; ?>
+                    @foreach ($group->parameter as $p)
+                        <?php $j++ ?>
+                        <div role="tabpanel" class="tab-pane fade {{ $i == 1 && $j == 1 ? "active" : ""}} in" id="tab_content_{{$p->name}}" aria-labelledby="home-tab">
+                            <div class="row">
+                                @foreach ($p->monitoring as $m)
+                                <div class="col-md-2 col-sm-4">
+                                    <div class="x_panel">
+                                        <div class="x_content" style="height:200px;" id="chart{{ $m->id }}"> </div>
+                                    </div>
+                                </div>
+                                @endforeach
+                            </div>
+                        </div>
+                    @endforeach
+                @endforeach
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
 <div ng-app="app" ng-controller="MainController">
     @foreach($monitoringGroup as $group)
         <!-- <h1>{{$group->name}} <small>{{$group->description}}</small></h1> -->
         <!-- LOOP PARAMETER -->
         @foreach ($group->parameter as $p)
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h3 class="panel-title text-center">
+        <div class="x_panel">
+            <div class="x_title">
+                <h3 class=" text-center">
                     <a href="#">{{ strtoupper($p->name) }}</a>
                 </h3>
             </div>
-            <div class="panel-body">
+            <div class="x_content">
                 <div class="row">
                     <!-- LOOP RUANG -->
                     @foreach ($p->monitoring as $m)
                     <div class="col-md-2">
-                        <div style="height:250px;border:1px solid #ddd;margin-bottom:20px;" id="chart{{ $m->id }}"> </div>
+                        <!-- <div style="height:250px;border:1px solid #ddd;margin-bottom:20px;" id="chart{{ $m->id }}"> </div> -->
                     </div>
                     @endforeach
                 </div>

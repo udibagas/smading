@@ -9,9 +9,9 @@
 
 <div class="row">
     <div class="col-md-3">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h4 class="panel-title"><i class="fa fa-list"></i> PARAMETER</h4>
+        <div class="x_panel">
+            <div class="x_title">
+                <h4 class="x_title"><i class="fa fa-list"></i> PARAMETER</h4>
             </div>
         </div>
         <div class="row">
@@ -27,9 +27,9 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h4 class="panel-title"><i class="fa fa-th-large"></i> RUANG</h4>
+        <div class="x_panel">
+            <div class="x_title">
+                <h4 class="x_title"><i class="fa fa-th-large"></i> RUANG</h4>
             </div>
         </div>
         <div class="row">
@@ -47,9 +47,9 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h4 class="panel-title"><img src="{{ asset('images/door-open.png')}}" alt="" style="height:20px;"> PINTU</h4>
+        <div class="x_panel">
+            <div class="x_title">
+                <h4 class="x_title"><img src="{{ asset('images/door-open.png')}}" alt="" style="height:20px;"> PINTU</h4>
             </div>
         </div>
         <div class="row">
@@ -69,9 +69,9 @@
         </div>
     </div>
     <div class="col-md-3">
-        <div class="panel panel-success">
-            <div class="panel-heading">
-                <h4 class="panel-title"><img src="{{ asset('images/rack-icon-o.png')}}" alt="" style="height:20px;"> RAK</h4>
+        <div class="x_panel">
+            <div class="x_title">
+                <h4 class="x_title"><img src="{{ asset('images/rack-icon-o.png')}}" alt="" style="height:20px;"> RAK</h4>
             </div>
         </div>
         <div class="row">

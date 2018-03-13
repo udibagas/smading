@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h2>APPLIANCE HTTP API <small>Manage</small></h2><hr>
+<div class="x_panel">
+    <div class="x_content">
+        <h2>APPLIANCE HTTP API <small>Manage</small></h2>
         <table class="table table-striped table-hover" id="bootgrid">
             <thead>
                 <tr>
@@ -33,7 +33,7 @@
 
 <script type="text/javascript">
 
-    var btn = '<a href="{{url('applianceHttpApi/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> ADD</a>';
+    var btn = '<a href="{{url('applianceHttpApi/create')}}" class="btn btn-default"><i class="fa fa-plus"></i> TAMBAH</a>';
 
     var grid = $('#bootgrid').bootgrid({
         ajax: true, url: '{{url('applianceHttpApi')}}',

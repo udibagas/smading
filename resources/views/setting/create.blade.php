@@ -2,11 +2,12 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="panel-title">TAMBAH SETTING</h2>
+<div class="x_panel">
+    <div class="x_title">
+        <h2 class="x_title">TAMBAH SETTING</h2>
+        <div class="clearfix"></div>
     </div>
-    <div class="panel-body">
+    <div class="x_content">
         @include('setting._form', ['method' => 'POST', 'url' => '/setting'])
     </div>
 </div>

@@ -2,9 +2,9 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-body">
-        <h2>PEMANTAUAN RAK {{$rak->code}} : {{$rak->name}}</h2><hr>
+<div class="x_panel">
+    <div class="x_content">
+        <h2>PEMANTAUAN RAK {{$rak->code}} : {{$rak->name}}</h2>
     </div>
 </div>
 

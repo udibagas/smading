@@ -7,30 +7,17 @@
         <h2>RAK 1</h2>
         <hr>
         <div class="row">
-            <div class="col-md-6">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div id="gauge-chart" style="height:400px;"> </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div id="gauge-chart1" style="height:400px;"> </div>
+            <?php for ($i=0;$i<=3;$i++): ?>
+                <div class="col-md-4">
+                    <div class="row">
+                        <?php for ($j=0;$j<=3;$j++) : ?>
+                        <div class="col-md-4">
+                            <div id="gauge-chart<?= $i ?>_<?= $j ?>" style="height:200px;"> </div>
+                        </div>
+                        <?php endfor ?>
                     </div>
                 </div>
-                <div id="line-chart" style="height:300px;"> </div>
-                <div id="line-chart1" style="height:300px;"> </div>
-            </div>
-            <div class="col-md-6">
-                <table class="table table-striped table-hover" id="bootgrid">
-                    <thead>
-                        <tr>
-                            <!-- <th data-column-id="id" data-identifier="true" data-type="numeric">ID</th> -->
-                            <th data-column-id="created_at">Waktu</th>
-                            <th data-column-id="sensor_id" data-formatter="sensor_id">PAC</th>
-                            <th data-column-id="value" data-formatter="value">Value</th>
-                        </tr>
-                    </thead>
-                </table>
-            </div>
+            <?php endfor ?>
         </div>
     </div>
 </div>
@@ -170,23 +157,6 @@
         chart.setOption({ series: series });
         chart1.setOption({ series: series1 });
 
-        var grid = $('#bootgrid').bootgrid({
-            ajax: true, url: '/sensorLog',
-            ajaxSettings: {method: 'GET', cache: false},
-            searchSettings: { delay: 100, characters: 3 },
-            formatters: {
-                "sensor_id": function(column, row) {
-                    return row.sensor_id == 1 ? 'Temperature' : 'Humidity';
-                },
-                "value": function(column, row) {
-                    return row.value;
-                    // return (row.value < 18 || row.value > 22)
-                    //     ? '<span class="text-danger"><strong>'+row.value+'</strong></span>'
-                    //     : '<span class="text-success"><strong>'+row.value+'</strong></span>';
-                }
-            }
-        });
-
         $interval(function() {
             $http.get('/pac-snmp').then(function(j) {
                 console.log(j.data);
@@ -203,24 +173,21 @@
                     }]
                 });
 
-                chart2.setOption({
-                    series: [{
-                        name: 'Temperature',
-                        type: 'line',
-                        data: j.data.data_1
-                    }]
-                });
-
-                chart3.setOption({
-                    series: [{
-                        name: 'Temperature',
-                        type: 'line',
-                        data: j.data.data_2
-                    }]
-                });
-
-                $('#bootgrid').bootgrid('reload');
-
+                // chart2.setOption({
+                //     series: [{
+                //         name: 'Temperature',
+                //         type: 'line',
+                //         data: j.data.data_1
+                //     }]
+                // });
+                //
+                // chart3.setOption({
+                //     series: [{
+                //         name: 'Temperature',
+                //         type: 'line',
+                //         data: j.data.data_2
+                //     }]
+                // });
             });
         }, 2000);
 

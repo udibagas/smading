@@ -41567,7 +41567,7 @@ module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c
   }, [_c('div', {
     staticClass: "col-md-8 col-md-offset-2"
   }, [_c('div', {
-    staticClass: "panel panel-default"
+    staticClass: "x_panel"
   }, [_c('div', {
     staticClass: "panel-heading"
   }, [_vm._v("Example Component")]), _vm._v(" "), _c('div', {

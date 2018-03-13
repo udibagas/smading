@@ -2,11 +2,12 @@
 
 @section('content')
 
-<div class="panel panel-default">
-    <div class="panel-heading">
-        <h2 class="panel-title">EDIT SETTING</h2>
+<div class="x_panel">
+    <div class="x_title">
+        <h2 class="x_title">EDIT SETTING</h2>
+        <div class="clearfix"></div>
     </div>
-    <div class="panel-body">
+    <div class="x_content">
         @include('setting._form', ['method' => 'PUT', 'url' => '/setting/'.$setting->id])
     </div>
 </div>
