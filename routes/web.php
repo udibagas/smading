@@ -27,9 +27,9 @@ Route::group(['middleware' => 'auth'], function() {
     Route::get('/denah/index', 'DenahController@index1');
     Route::resource('/denah', 'DenahController');
     Route::resource('/gedung', 'GedungController');
-    Route::resource('/inventory', 'InventoryController');
+    // Route::resource('/inventory', 'InventoryController');
     Route::resource('/logPintu', 'LogPintuController', ['only' => ['index']]);
-    Route::resource('/pemeliharaan', 'PemeliharaanController');
+    // Route::resource('/pemeliharaan', 'PemeliharaanController');
     Route::resource('/pintu', 'PintuController');
     Route::resource('/rak', 'RakController');
     Route::resource('/ruang', 'RuangController');
