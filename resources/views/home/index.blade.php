@@ -60,7 +60,7 @@
                     <div role="tabpanel" class="tab-pane fade active in">
                         <div class="row">
                             @foreach ($param->monitoring as $m)
-                            <div class="col-md-2 col-sm-4">
+                            <div class="col-md-3 col-sm-4">
                                 <div class="" style="height:270px;border:1px solid #ddd;padding:5px;border-radius:2px;margin-bottom:20px;" id="chart{{ $m->id }}"> </div>
                             </div>
                             @endforeach
