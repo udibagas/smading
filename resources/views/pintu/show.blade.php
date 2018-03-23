@@ -2,11 +2,7 @@
 
 @section('content')
 
-<div class="x_panel">
-    <div class="x_title">
-        <h3 class="">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h3>
-    </div>
-</div>
+<h1 class="">{{$pintu->code}} : {{strtoupper($pintu->name)}}</h1>
 
 <div class="row">
     <div class="col-md-2">

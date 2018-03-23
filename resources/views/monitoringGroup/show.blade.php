@@ -2,34 +2,32 @@
 
 @section('content')
 
-<div ng-app="app" class="x_panel" ng-controller="MainController">
-    <div class="x_content">
-        <h2>
-            {{ strtoupper($monitoringGroup->name) }}
-            <small>Pemantauan {{$monitoringGroup->name}} realtime</small>
-        </h2>
+<div ng-app="app" ng-controller="MainController">
+    <h1>
+        {{ strtoupper($monitoringGroup->name) }}
+        <small>Pemantauan {{$monitoringGroup->name}} realtime</small>
+    </h1>
 
-        <!-- LOOP PARAMETER -->
-        @foreach ($monitoringGroup->parameter as $p)
-        <div class="x_panel">
-            <div class="x_title">
-                <h3 class=" text-center">
-                    <a href="#">{{ strtoupper($p->name) }}</a>
-                </h3>
-            </div>
-            <div class="x_content">
-                <div class="row">
-                    <!-- LOOP RUANG -->
-                    @foreach ($p->monitoring as $m)
-                    <div class="col-md-2">
-                        <div style="height:250px;border:1px solid #ddd;margin-bottom:20px;" id="chart{{ $m->id }}"> </div>
-                    </div>
-                    @endforeach
+    <!-- LOOP PARAMETER -->
+    @foreach ($monitoringGroup->parameter as $p)
+    <div class="x_panel">
+        <div class="x_title">
+            <h3 class=" text-center">
+                <a href="#">{{ strtoupper($p->name) }}</a>
+            </h3>
+        </div>
+        <div class="x_content">
+            <div class="row">
+                <!-- LOOP RUANG -->
+                @foreach ($p->monitoring as $m)
+                <div class="col-md-2">
+                    <div style="height:250px;border:1px solid #ddd;margin-bottom:20px;" id="chart{{ $m->id }}"> </div>
                 </div>
+                @endforeach
             </div>
         </div>
-        @endforeach
     </div>
+    @endforeach
 </div>
 
 @endsection

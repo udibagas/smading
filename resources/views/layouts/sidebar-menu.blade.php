@@ -3,14 +3,9 @@
         <!-- <h3>Navigasi</h3> -->
         <ul class="nav side-menu">
             <li> <a href="{{url('/')}}"><i class="fa fa-dashboard"></i> Dashboard</a> </li>
-            <li> <a href="{{url('denah')}}"><i class="fa fa-th-large"></i> Denah</a> </li>
+            <li> <a href="{{url('denah/index')}}"><i class="fa fa-th-large"></i> Denah</a> </li>
             <li> <a href="{{url('tren')}}"><i class="fa fa-area-chart"></i> Tren</a> </li>
-            <li><a><i class="fa fa-binoculars"></i> Pemantauan <span class="fa fa-chevron-down"></span></a>
-                <ul class="nav child_menu">
-                    <li><a href="{{url('lingkungan')}}">Lingkungan</a></li>
-                    <li><a href="{{url('kelistrikan')}}">Kelistrikan</a></li>
-                </ul>
-            </li>
+            <li><a href="{{url('pemantauan')}}"><i class="fa fa-binoculars"></i> Pemantauan</a> </li>
             <li><a><i class="fa fa-hdd-o"></i> Rekaman <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
                     <li><a href="{{url('alarm')}}">Alarm</a></li>
